@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Mummies</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <!--BYU LOOKING STYLES-->
+    <script async src="https://cdn.byu.edu/byu-theme-components/2.x.x/byu-theme-components.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.byu.edu/byu-theme-components/2.x.x/byu-theme-components.min.css" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <byu-header>
+            <h2 slot="site-title">Fag el-Gamous</h2>
+            <partial name="_LoginPartial" />
+            <byu-menu slot="nav" active-selector=".is-active" class="byu-component-rendered">
+                @if (ViewContext.RouteData.Values["Action"] is null)
+                {
+                    <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <a asp-area="" asp-controller="Home" asp-action="DatabaseSearch">Database</a>
+                    <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics">Analytics</a>
+                    <a asp-area="" asp-controller="Researcher" asp-action="AddMummy">Add Mummy</a>
+                    <a asp-area="" asp-controller="Admin" asp-action="Admin">Admin</a>
+                }
+                else
+                {
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">Home</a>
+                    <a asp-area="" asp-controller="Home" asp-action="DatabaseSearch" class="@(ViewContext.RouteData.Values["Action"].ToString() == "DatabaseSearch" ? "active" : "")">Database</a>
+                    <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics" class="@(ViewContext.RouteData.Values["Action"].ToString() == "MummyAnalytics" ? "active" : "")">Analytics</a>
+                    <a asp-area="" asp-controller="Researcher" asp-action="AddMummy" class="@(ViewContext.RouteData.Values["Action"].ToString() == "AddMummy" ? "active" : "")">Add Mummy</a>
+                    <a asp-area="" asp-controller="Admin" asp-action="Admin" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Admin" ? "active" : "")">Admin</a>
+                }
+            </byu-menu>
+        </byu-header>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <byu-footer></byu-footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
