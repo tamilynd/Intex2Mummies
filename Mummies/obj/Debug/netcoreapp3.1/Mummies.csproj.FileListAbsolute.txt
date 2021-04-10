@@ -308,3 +308,4 @@ C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razo
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Burial_Summary.cshtml.g.cs
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\CollapsedSearchMenu.cshtml.g.cs
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\MummyPopup.cshtml.g.cs
