@@ -10,10 +10,9 @@ namespace Mummies.Models.ViewModels
     //New class that allows view to recieve both book information and page info
     public class SearchDatabaseViewModel
     {
-        public IEnumerable<FagElGamousDatabaseByLocation> Burials { get; set; }
+        public List<FagElGamousDatabaseByLocation> Burials { get; set; }
         public PagingInfo PagingInfo { get; set; }
         public SearchInfo? CurrentSearch { get; set; }
-        public string Query { get; set; }
 
     }
 }

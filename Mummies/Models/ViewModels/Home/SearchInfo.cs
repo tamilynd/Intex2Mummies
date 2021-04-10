@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mummies.Models.MummyDb;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -38,42 +39,40 @@ namespace Mummies.Models.ViewModels.Home
         public string WrapWords { get; set; } = "";
         public string ItemWords { get; set; } = "";
 
-        public string GetQuery()
+        public IQueryable<FagElGamousDatabaseByLocation> GetQuery(IMummyRepository context)
         {
-            string query = "SELECT * FROM FagElGamousDatabaseByLocation WHERE";
+            IQueryable<FagElGamousDatabaseByLocation> query = context.FagElGamousDatabaseByLocation;
 
             //Location
-            query = query + " ((BurialAreaNorthOrSouthUpper >= " + NorthMin;
-            query = query + " AND BurialAreaEastOrWestUpper >= " + EastMin; 
-            query = query + " AND BurialAreaNorthOrSouthUpper <= " + NorthMax;
-            query = query + " AND BurialAreaEastOrWestUpper <= " + EastMax + ")";
+            //query = query.Where(b => b.BurialAreaNorthOrSouthUpper >= NorthMin);
+            //query = query.Where(b => b.BurialAreaEastOrWestUpper >= EastMin);
+            //query = query.Where(b => b.BurialAreaNorthOrSouthUpper >= NorthMax);
+            //query = query.Where(b => b.BurialAreaEastOrWestUpper >= EastMax);
             if(!West)
             {
-                query = query + " OR Burialxeorw = \'W\')";
+                query = query.Where(b => b.Burialxeorw == "E");
             }
-            else
-            {
-                query = query + " AND Burialxeorw = \'E\')";
-            }
+
             //Orientation
             if (UnknownOrient || EastOrient || WestOrient) 
             {
                 if (!UnknownOrient)
                 {
-                    query = query + " AND BurialDirection != \'U\' AND BurialDirection != \'\'";
+                    query = query.Where(b => b.BurialDirection != "U");
+                    query = query.Where(b => b.BurialDirection != "");
                 }
                 if (!WestOrient)
                 {
-                    query = query + " AND BurialDirection != \'W\'";
+                    query = query.Where(b => b.BurialDirection != "W");
                 }
                 if (!EastOrient)
                 {
-                    query = query + " AND BurialDirection != \'E\'";
+                    query = query.Where(b => b.BurialDirection != "E");
                 }
             }
             //Depth
-            query = query + " AND (BurialDepth <= " + DepthMin;
-            query = query + " AND BurialDepth >= " + DepthMax + ")";
+            //query = query.Where(b => b.BurialDepth >= DepthMin);
+            //query = query.Where(b => b.BurialDepth <= DepthMax);
 
 
             //Hair
@@ -81,27 +80,28 @@ namespace Mummies.Models.ViewModels.Home
             {
                 if (!Black)
                 {
-                    query = query + " AND HairColorCode != \'K\'";
+                    query = query.Where(b => b.HairColorCode != "K");
                 }
                 if (!Blond)
                 {
-                    query = query + " AND HairColorCode != \'D\'";
+                    query = query.Where(b => b.HairColorCode != "D");
                 }
                 if (!Brown)
                 {
-                    query = query + " AND HairColorCode != \'B\'";
+                    query = query.Where(b => b.HairColorCode != "B");
                 }
                 if (!BrownRed)
                 {
-                    query = query + " AND HairColorCode != \'A\'";
+                    query = query.Where(b => b.HairColorCode != "A");
                 }
                 if (!Red)
                 {
-                    query = query + " AND HairColorCode != \'R\'";
+                    query = query.Where(b => b.HairColorCode != "R");
                 }
                 if (!UnknownColor)
                 {
-                    query = query + " AND HairColorCode != \'U\' AND HairColorCode != \'\'";
+                    query = query.Where(b => b.HairColorCode != "U");
+                    query = query.Where(b => b.HairColorCode != "");
                 }
             }
 
@@ -111,15 +111,16 @@ namespace Mummies.Models.ViewModels.Home
             {
                 if (!Female)
                 {
-                    query = query + " AND GenderCode != \'F\'";
+                    query = query.Where(b => b.GenderCode != "F");
                 }
                 if (!Male)
                 {
-                    query = query + " AND GenderCode != \'M\'";
+                    query = query.Where(b => b.GenderCode != "M");
                 }
                 if (!UnknownGender)
                 {
-                    query = query + " AND GenderCode != \'U\' AND GenderCode != \'\'";
+                    query = query.Where(b => b.GenderCode != "U");
+                    query = query.Where(b => b.GenderCode != "");
                 }
             }
 
@@ -128,23 +129,24 @@ namespace Mummies.Models.ViewModels.Home
             {
                 if (!Adult)
                 {
-                    query = query + " AND AgeCodeSingle != \'A\'";
+                    query = query.Where(b => b.AgeCodeSingle != "A");
                 }
                 if (!Child)
                 {
-                    query = query + " AND AgeCodeSingle != \'C\'";
+                    query = query.Where(b => b.AgeCodeSingle != "C");
                 }
                 if (!Infant)
                 {
-                    query = query + " AND AgeCodeSingle != \'I\'";
+                    query = query.Where(b => b.AgeCodeSingle != "I");
                 }
                 if (!Newborn)
                 {
-                    query = query + " AND AgeCodeSingle != \'N\'";
+                    query = query.Where(b => b.AgeCodeSingle != "N");
                 }
                 if (!UnknownAge)
                 {
-                    query = query + " AND AgeCodeSingle != \'U\' AND AgeCodeSingle != \'\'";
+                    query = query.Where(b => b.AgeCodeSingle != "U");
+                    query = query.Where(b => b.AgeCodeSingle != "");
                 }
             }
 
@@ -153,24 +155,25 @@ namespace Mummies.Models.ViewModels.Home
             {
                 if (!LittleBones)
                 {
-                    query = query + " AND BurialWrapping != \'B\'";
+                    query = query.Where(b => b.BurialWrapping != "B");
                 }
                 if (!FullWrap)
                 {
-                    query = query + " AND BurialWrapping != \'W\'";
+                    query = query.Where(b => b.BurialWrapping != "W");
                 }
                 if (!PartialWrap)
                 {
-                    query = query + " AND BurialWrapping != \'H\'";
+                    query = query.Where(b => b.BurialWrapping != "H");
                 }
                 if (!UnknownWrap)
                 {
-                    query = query + " AND BurialWrapping != \'U\' AND AgeCodeSingle != \'\'";
+                    query = query.Where(b => b.BurialWrapping != "U");
+                    query = query.Where(b => b.BurialWrapping != "");
                 }
             }
             //query = query + " ORDER BY BurialId;";
 
-            return query;
+            return context.FagElGamousDatabaseByLocation;
         }
 
     }

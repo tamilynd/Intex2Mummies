@@ -2,7 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-#nullable disable
+// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
+// If you have enabled NRTs for your project, then un-comment the following line:
+// #nullable disable
 
 namespace Mummies.Models.MummyDb
 {
@@ -24,10 +26,17 @@ namespace Mummies.Models.MummyDb
         public virtual DbSet<FagElGamousDatabaseByLocation> FagElGamousDatabaseByLocation { get; set; }
         public virtual DbSet<Oraclespread> Oraclespread { get; set; }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseSqlServer("Data Source=mummydatabase.cy9bemqqeyif.us-east-1.rds.amazonaws.com;Initial Catalog=MummyDb;User ID=admin;Password=group4-7");
+            }
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS");
-
             modelBuilder.Entity<BiologicalSamples>(entity =>
             {
                 entity.HasKey(e => e.Index);
@@ -57,296 +66,296 @@ namespace Mummies.Models.MummyDb
                 entity.ToTable("BYU_Fag_el_Gamous_DB");
 
                 entity.Property(e => e.BurialId)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_ID");
+                    .HasColumnName("Burial_ID")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.ArtifactFound).HasColumnName("artifact_found");
 
                 entity.Property(e => e.ArtifactsDescription)
-                    .HasMaxLength(150)
-                    .HasColumnName("artifacts_description");
+                    .HasColumnName("artifacts_description")
+                    .HasMaxLength(150);
 
                 entity.Property(e => e.BasilarSuture)
-                    .HasMaxLength(50)
-                    .HasColumnName("basilar_suture");
+                    .HasColumnName("basilar_suture")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BasionBregmaHeight)
-                    .HasMaxLength(50)
-                    .HasColumnName("basion_bregma_height");
+                    .HasColumnName("basion_bregma_height")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BasionNasion)
-                    .HasMaxLength(50)
-                    .HasColumnName("basion_nasion");
+                    .HasColumnName("basion_nasion")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BasionProsthionLength)
-                    .HasMaxLength(50)
-                    .HasColumnName("basion_prosthion_length");
+                    .HasColumnName("basion_prosthion_length")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BizygomaticDiameter)
-                    .HasMaxLength(50)
-                    .HasColumnName("bizygomatic_diameter");
+                    .HasColumnName("bizygomatic_diameter")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BoneLength)
-                    .HasMaxLength(1)
-                    .HasColumnName("bone_length");
+                    .HasColumnName("bone_length")
+                    .HasMaxLength(1);
 
                 entity.Property(e => e.BoneTaken).HasColumnName("bone_taken");
 
                 entity.Property(e => e.BurialDepth)
-                    .HasMaxLength(50)
-                    .HasColumnName("burial_depth");
+                    .HasColumnName("burial_depth")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialLocationEw)
-                    .HasMaxLength(50)
-                    .HasColumnName("burial_location_EW");
+                    .HasColumnName("burial_location_EW")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialLocationNs)
-                    .HasMaxLength(50)
-                    .HasColumnName("burial_location_NS");
+                    .HasColumnName("burial_location_NS")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialNumber)
-                    .HasMaxLength(50)
-                    .HasColumnName("burial_number");
+                    .HasColumnName("burial_number")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialSituation)
-                    .HasMaxLength(1100)
-                    .HasColumnName("burial_situation");
+                    .HasColumnName("burial_situation")
+                    .HasMaxLength(1100);
 
                 entity.Property(e => e.BurialSubplot)
-                    .HasMaxLength(50)
-                    .HasColumnName("burial_subplot");
+                    .HasColumnName("burial_subplot")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.CranialSuture)
-                    .HasMaxLength(50)
-                    .HasColumnName("cranial_suture");
+                    .HasColumnName("cranial_suture")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.DayFound)
-                    .HasMaxLength(50)
-                    .HasColumnName("day_found");
+                    .HasColumnName("day_found")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.DescriptionOfTaken)
-                    .HasMaxLength(100)
-                    .HasColumnName("description_of_taken");
+                    .HasColumnName("description_of_taken")
+                    .HasMaxLength(100);
 
                 entity.Property(e => e.DorsalPitting)
-                    .HasMaxLength(50)
-                    .HasColumnName("dorsal_pitting");
+                    .HasColumnName("dorsal_pitting")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.EastToFeet)
-                    .HasMaxLength(50)
-                    .HasColumnName("east_to_feet");
+                    .HasColumnName("east_to_feet")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.EastToHead)
-                    .HasMaxLength(50)
-                    .HasColumnName("east_to_head");
+                    .HasColumnName("east_to_head")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.EpiphysealUnion)
-                    .HasMaxLength(50)
-                    .HasColumnName("epiphyseal_union");
+                    .HasColumnName("epiphyseal_union")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.EstimateAge)
-                    .HasMaxLength(50)
-                    .HasColumnName("estimate_age");
+                    .HasColumnName("estimate_age")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.EstimateLivingStature)
-                    .HasMaxLength(50)
-                    .HasColumnName("estimate_living_stature");
+                    .HasColumnName("estimate_living_stature")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.FemurDiameter)
-                    .HasMaxLength(1)
-                    .HasColumnName("femur_diameter");
+                    .HasColumnName("femur_diameter")
+                    .HasMaxLength(1);
 
                 entity.Property(e => e.FemurHead)
-                    .HasMaxLength(50)
-                    .HasColumnName("femur_head");
+                    .HasColumnName("femur_head")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.FemurLength)
-                    .HasMaxLength(50)
-                    .HasColumnName("femur_length");
+                    .HasColumnName("femur_length")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.ForemanMagnum)
-                    .HasMaxLength(1)
-                    .HasColumnName("foreman_magnum");
+                    .HasColumnName("foreman_magnum")
+                    .HasMaxLength(1);
 
                 entity.Property(e => e.GeFunctionTotal)
-                    .HasMaxLength(50)
-                    .HasColumnName("GE_function_total");
+                    .HasColumnName("GE_function_total")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.GenderBodyCol)
-                    .HasMaxLength(50)
-                    .HasColumnName("gender_body_col");
+                    .HasColumnName("gender_body_col")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.GenderGe)
-                    .HasMaxLength(50)
-                    .HasColumnName("gender_GE");
+                    .HasColumnName("gender_GE")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Gonian)
-                    .HasMaxLength(50)
-                    .HasColumnName("gonian");
+                    .HasColumnName("gonian")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.HairColor)
-                    .HasMaxLength(50)
-                    .HasColumnName("hair_color");
+                    .HasColumnName("hair_color")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.HairTaken).HasColumnName("hair_taken");
 
                 entity.Property(e => e.HeadDirection)
-                    .HasMaxLength(50)
-                    .HasColumnName("head_direction");
+                    .HasColumnName("head_direction")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.HighPairEw).HasColumnName("high_pair_EW");
 
                 entity.Property(e => e.HighPairNs).HasColumnName("high_pair_NS");
 
                 entity.Property(e => e.Humerus)
-                    .HasMaxLength(1)
-                    .HasColumnName("humerus");
+                    .HasColumnName("humerus")
+                    .HasMaxLength(1);
 
                 entity.Property(e => e.HumerusHead)
-                    .HasMaxLength(50)
-                    .HasColumnName("humerus_head");
+                    .HasColumnName("humerus_head")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.HumerusLength)
-                    .HasMaxLength(50)
-                    .HasColumnName("humerus_length");
+                    .HasColumnName("humerus_length")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.IliacCrest)
-                    .HasMaxLength(1)
-                    .HasColumnName("iliac_crest");
+                    .HasColumnName("iliac_crest")
+                    .HasMaxLength(1);
 
                 entity.Property(e => e.InterorbitalBreadth)
-                    .HasMaxLength(50)
-                    .HasColumnName("interorbital_breadth");
+                    .HasColumnName("interorbital_breadth")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.LengthOfRemains)
-                    .HasMaxLength(50)
-                    .HasColumnName("length_of_remains");
+                    .HasColumnName("length_of_remains")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.LowPairEw)
-                    .HasMaxLength(50)
-                    .HasColumnName("low_pair_EW");
+                    .HasColumnName("low_pair_EW")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.LowPairNs).HasColumnName("low_pair_NS");
 
                 entity.Property(e => e.MaximumCranialBreadth)
-                    .HasMaxLength(50)
-                    .HasColumnName("maximum_cranial_breadth");
+                    .HasColumnName("maximum_cranial_breadth")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.MaximumCranialLength)
-                    .HasMaxLength(50)
-                    .HasColumnName("maximum_cranial_length");
+                    .HasColumnName("maximum_cranial_length")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.MaximumNasalBreadth)
-                    .HasMaxLength(50)
-                    .HasColumnName("maximum_nasal_breadth");
+                    .HasColumnName("maximum_nasal_breadth")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.MedialClavicle)
-                    .HasMaxLength(1)
-                    .HasColumnName("medial_clavicle");
+                    .HasColumnName("medial_clavicle")
+                    .HasMaxLength(1);
 
                 entity.Property(e => e.MedialIpRamus)
-                    .HasMaxLength(50)
-                    .HasColumnName("medial_IP_ramus");
+                    .HasColumnName("medial_IP_ramus")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.MonthFound)
-                    .HasMaxLength(50)
-                    .HasColumnName("month_found");
+                    .HasColumnName("month_found")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.NasionProsthion)
-                    .HasMaxLength(50)
-                    .HasColumnName("nasion_prosthion");
+                    .HasColumnName("nasion_prosthion")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.NuchalCrest)
-                    .HasMaxLength(50)
-                    .HasColumnName("nuchal_crest");
+                    .HasColumnName("nuchal_crest")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.OrbitEdge)
-                    .HasMaxLength(50)
-                    .HasColumnName("orbit_edge");
+                    .HasColumnName("orbit_edge")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Osteophytosis)
-                    .HasMaxLength(50)
-                    .HasColumnName("osteophytosis");
+                    .HasColumnName("osteophytosis")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.ParietalBossing)
-                    .HasMaxLength(50)
-                    .HasColumnName("parietal_bossing");
+                    .HasColumnName("parietal_bossing")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.PathologyAnomalies)
-                    .HasMaxLength(200)
-                    .HasColumnName("pathology_anomalies");
+                    .HasColumnName("pathology_anomalies")
+                    .HasMaxLength(200);
 
                 entity.Property(e => e.PreaurSulcus)
-                    .HasMaxLength(50)
-                    .HasColumnName("preaur_sulcus");
+                    .HasColumnName("preaur_sulcus")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.PreservationIndex)
-                    .HasMaxLength(50)
-                    .HasColumnName("preservation_index");
+                    .HasColumnName("preservation_index")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.PubicBone)
-                    .HasMaxLength(50)
-                    .HasColumnName("pubic_bone");
+                    .HasColumnName("pubic_bone")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.PubicSymphysis)
-                    .HasMaxLength(50)
-                    .HasColumnName("pubic_symphysis");
+                    .HasColumnName("pubic_symphysis")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Robust)
-                    .HasMaxLength(50)
-                    .HasColumnName("robust");
+                    .HasColumnName("robust")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.SampleNumber).HasColumnName("sample_number");
 
                 entity.Property(e => e.SciaticNotch)
-                    .HasMaxLength(50)
-                    .HasColumnName("sciatic_notch");
+                    .HasColumnName("sciatic_notch")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.SoftTissueTaken).HasColumnName("soft_tissue_taken");
 
                 entity.Property(e => e.SouthToFeet)
-                    .HasMaxLength(50)
-                    .HasColumnName("south_to_feet");
+                    .HasColumnName("south_to_feet")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.SouthToHead)
-                    .HasMaxLength(50)
-                    .HasColumnName("south_to_head");
+                    .HasColumnName("south_to_head")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.SubpubicAngle)
-                    .HasMaxLength(50)
-                    .HasColumnName("subpubic_angle");
+                    .HasColumnName("subpubic_angle")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.SupraorbitalRidges)
-                    .HasMaxLength(50)
-                    .HasColumnName("supraorbital_ridges");
+                    .HasColumnName("supraorbital_ridges")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.TextileTaken).HasColumnName("textile_taken");
 
                 entity.Property(e => e.TibiaLength)
-                    .HasMaxLength(50)
-                    .HasColumnName("tibia_length");
+                    .HasColumnName("tibia_length")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.ToothAttrition)
-                    .HasMaxLength(50)
-                    .HasColumnName("tooth_attrition");
+                    .HasColumnName("tooth_attrition")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.ToothEruption)
-                    .HasMaxLength(50)
-                    .HasColumnName("tooth_eruption");
+                    .HasColumnName("tooth_eruption")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.ToothTaken).HasColumnName("tooth_taken");
 
                 entity.Property(e => e.VentralArc)
-                    .HasMaxLength(50)
-                    .HasColumnName("ventral_arc");
+                    .HasColumnName("ventral_arc")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.YearFound)
-                    .HasMaxLength(50)
-                    .HasColumnName("year_found");
+                    .HasColumnName("year_found")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.ZygomaticCrest)
-                    .HasMaxLength(50)
-                    .HasColumnName("zygomatic_crest");
+                    .HasColumnName("zygomatic_crest")
+                    .HasMaxLength(50);
             });
 
             modelBuilder.Entity<C14Data>(entity =>
@@ -356,22 +365,22 @@ namespace Mummies.Models.MummyDb
                 entity.ToTable("C14 DATA");
 
                 entity.Property(e => e.BurialId)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_ID");
+                    .HasColumnName("Burial_ID")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Area)
-                    .HasMaxLength(50)
-                    .HasColumnName("AREA");
+                    .HasColumnName("AREA")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Burial).HasMaxLength(50);
 
                 entity.Property(e => e.C14Sample2017)
-                    .HasMaxLength(50)
-                    .HasColumnName("C14_Sample_2017");
+                    .HasColumnName("C14_Sample_2017")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Calibrated95CalendarDateAvg)
-                    .HasMaxLength(50)
-                    .HasColumnName("Calibrated_95_Calendar_Date_AVG");
+                    .HasColumnName("Calibrated_95_Calendar_Date_AVG")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Calibrated95CalendarDateMax).HasColumnName("Calibrated_95_Calendar_Date_MAX");
 
@@ -382,28 +391,28 @@ namespace Mummies.Models.MummyDb
                 entity.Property(e => e.Category).HasMaxLength(50);
 
                 entity.Property(e => e.Column20)
-                    .HasMaxLength(50)
-                    .HasColumnName("column20");
+                    .HasColumnName("column20")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Column29)
-                    .HasMaxLength(50)
-                    .HasColumnName("column29");
+                    .HasColumnName("column29")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Column4)
-                    .HasMaxLength(50)
-                    .HasColumnName("column4");
+                    .HasColumnName("column4")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Column7)
-                    .HasMaxLength(50)
-                    .HasColumnName("column7");
+                    .HasColumnName("column7")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Conventional14cAgeBp).HasColumnName("Conventional_14C_age_BP");
 
                 entity.Property(e => e.Description).HasMaxLength(50);
 
                 entity.Property(e => e.EWLower)
-                    .HasMaxLength(50)
-                    .HasColumnName("E_W_Lower");
+                    .HasColumnName("E_W_Lower")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.EWUpper).HasColumnName("E_W_Upper");
 
@@ -418,16 +427,16 @@ namespace Mummies.Models.MummyDb
                 entity.Property(e => e.Notes).HasMaxLength(50);
 
                 entity.Property(e => e.QuestionS)
-                    .HasMaxLength(150)
-                    .HasColumnName("Question_s");
+                    .HasColumnName("Question_s")
+                    .HasMaxLength(150);
 
                 entity.Property(e => e.SizeMl).HasColumnName("Size_ml");
 
                 entity.Property(e => e.Square).HasMaxLength(50);
 
                 entity.Property(e => e.Tube)
-                    .HasMaxLength(50)
-                    .HasColumnName("TUBE");
+                    .HasColumnName("TUBE")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e._14cCalendarDate).HasColumnName("_14C_Calendar_Date");
             });
@@ -439,8 +448,8 @@ namespace Mummies.Models.MummyDb
                 entity.ToTable("cranial2002");
 
                 entity.Property(e => e.BurialId)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_ID");
+                    .HasColumnName("Burial_ID")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BasionBregmaHeight).HasColumnName("Basion_Bregma_Height");
 
@@ -453,36 +462,36 @@ namespace Mummies.Models.MummyDb
                 entity.Property(e => e.BodyGender).HasMaxLength(50);
 
                 entity.Property(e => e.BurialArtifactDescription)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_Artifact_Description");
+                    .HasColumnName("Burial_Artifact_Description")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialDepth)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_Depth");
+                    .HasColumnName("Burial_Depth")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialNumber)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_Number");
+                    .HasColumnName("Burial_Number")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialPositioningEastWestDirection)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_Positioning_East_West_Direction");
+                    .HasColumnName("Burial_Positioning_East_West_Direction")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialPositioningEastWestNumber)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_Positioning_East_West_Number");
+                    .HasColumnName("Burial_Positioning_East_West_Number")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialPositioningNorthSouthDirection)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_Positioning_North_South_Direction");
+                    .HasColumnName("Burial_Positioning_North_South_Direction")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialPositioningNorthSouthNumber)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_Positioning_North_South_Number");
+                    .HasColumnName("Burial_Positioning_North_South_Number")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialSubPlotDirection)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_sub_plot_direction");
+                    .HasColumnName("Burial_sub_plot_direction")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BuriedWithArtifacts).HasColumnName("Buried_with_Artifacts");
 
@@ -499,19 +508,18 @@ namespace Mummies.Models.MummyDb
                 entity.Property(e => e.NasionProsthion).HasColumnName("Nasion_Prosthion");
 
                 entity.Property(e => e.SampleNumber)
-                    .HasMaxLength(50)
-                    .HasColumnName("Sample_Number");
+                    .HasColumnName("Sample_Number")
+                    .HasMaxLength(50);
             });
 
             modelBuilder.Entity<FagElGamousDatabaseByLocation>(entity =>
             {
-                entity.HasKey(e => e.BurialId);
-
-                entity.ToTable("Fag_el_Gamous_Database_by_Location");
+                entity.HasKey(e => e.BurialId)
+                    .HasName("PK_FagElGamousDatabaseByLocations");
 
                 entity.Property(e => e.BurialId)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_ID");
+                    .HasColumnName("Burial_ID")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.AdultChild).HasColumnName("Adult_Child");
 
@@ -533,7 +541,9 @@ namespace Mummies.Models.MummyDb
 
                 entity.Property(e => e.BurialAreaNorthOrSouthUpper).HasColumnName("burial_area_North_or_South_upper");
 
-                entity.Property(e => e.BurialDepth).HasColumnName("burial_depth");
+                entity.Property(e => e.BurialDepth)
+                    .HasColumnName("burial_depth")
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.BurialDirection).HasColumnName("burial_direction");
 
@@ -643,7 +653,9 @@ namespace Mummies.Models.MummyDb
 
                 entity.Property(e => e.InitialsOfDataEntryExpert).HasColumnName("Initials_of_Data_Entry_Expert");
 
-                entity.Property(e => e.Length).HasColumnName("length");
+                entity.Property(e => e.Length)
+                    .HasColumnName("length")
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.LengthCm).HasColumnName("length_CM");
 
@@ -697,94 +709,94 @@ namespace Mummies.Models.MummyDb
                 entity.ToTable("oraclespread");
 
                 entity.Property(e => e.BurialId)
-                    .HasMaxLength(50)
-                    .HasColumnName("Burial_ID");
+                    .HasColumnName("Burial_ID")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Ageatdeath)
-                    .HasMaxLength(50)
-                    .HasColumnName("AGEATDEATH");
+                    .HasColumnName("AGEATDEATH")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Agemethod)
-                    .HasMaxLength(50)
-                    .HasColumnName("AGEMETHOD");
+                    .HasColumnName("AGEMETHOD")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Area)
-                    .HasMaxLength(50)
-                    .HasColumnName("AREA");
+                    .HasColumnName("AREA")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Burialicon)
-                    .HasMaxLength(50)
-                    .HasColumnName("BURIALICON");
+                    .HasColumnName("BURIALICON")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Burialicon2)
-                    .HasMaxLength(50)
-                    .HasColumnName("BURIALICON2");
+                    .HasColumnName("BURIALICON2")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Burialnum)
-                    .HasMaxLength(50)
-                    .HasColumnName("BURIALNUM");
+                    .HasColumnName("BURIALNUM")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.BurialsquareLower).HasColumnName("BURIALSQUARE_Lower");
 
                 entity.Property(e => e.BurialsquareUpper).HasColumnName("BURIALSQUARE_Upper");
 
                 entity.Property(e => e.Depth)
-                    .HasMaxLength(50)
-                    .HasColumnName("DEPTH");
+                    .HasColumnName("DEPTH")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Eorw)
-                    .HasMaxLength(50)
-                    .HasColumnName("EORW");
+                    .HasColumnName("EORW")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Gamous)
-                    .HasMaxLength(50)
-                    .HasColumnName("GAMOUS");
+                    .HasColumnName("GAMOUS")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Haircolor)
-                    .HasMaxLength(50)
-                    .HasColumnName("HAIRCOLOR");
+                    .HasColumnName("HAIRCOLOR")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Nors)
-                    .HasMaxLength(50)
-                    .HasColumnName("NORS");
+                    .HasColumnName("NORS")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Preservation)
-                    .HasMaxLength(50)
-                    .HasColumnName("PRESERVATION");
+                    .HasColumnName("PRESERVATION")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Sample)
-                    .HasMaxLength(50)
-                    .HasColumnName("SAMPLE");
+                    .HasColumnName("SAMPLE")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Sex)
-                    .HasMaxLength(50)
-                    .HasColumnName("SEX");
+                    .HasColumnName("SEX")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Sexmethod)
-                    .HasMaxLength(50)
-                    .HasColumnName("SEXMETHOD");
+                    .HasColumnName("SEXMETHOD")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Southtofeet)
-                    .HasMaxLength(50)
-                    .HasColumnName("SOUTHTOFEET");
+                    .HasColumnName("SOUTHTOFEET")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Southtohead)
-                    .HasMaxLength(50)
-                    .HasColumnName("SOUTHTOHEAD");
+                    .HasColumnName("SOUTHTOHEAD")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Sq2Lower)
-                    .HasMaxLength(50)
-                    .HasColumnName("SQ2_Lower");
+                    .HasColumnName("SQ2_Lower")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Sq2Upper).HasColumnName("SQ2_Upper");
 
                 entity.Property(e => e.Westtofeet)
-                    .HasMaxLength(50)
-                    .HasColumnName("WESTTOFEET");
+                    .HasColumnName("WESTTOFEET")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Westtohead)
-                    .HasMaxLength(50)
-                    .HasColumnName("WESTTOHEAD");
+                    .HasColumnName("WESTTOHEAD")
+                    .HasMaxLength(50);
             });
 
             OnModelCreatingPartial(modelBuilder);

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-#nullable disable
+// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
+// If you have enabled NRTs for your project, then un-comment the following line:
+// #nullable disable
 
 namespace Mummies.Models.MummyDb
 {
@@ -37,11 +39,11 @@ namespace Mummies.Models.MummyDb
         public string LinearHypoplasiaEnamel { get; set; }
         public string AreaHillBurials { get; set; }
         public string Tomb { get; set; }
-        public string BurialAreaNorthOrSouthLower { get; set; }
-        public string BurialAreaNorthOrSouthUpper { get; set; }
+        public int? BurialAreaNorthOrSouthLower { get; set; }
+        public int? BurialAreaNorthOrSouthUpper { get; set; }
         public string Burialnors { get; set; }
-        public string BurialAreaEastOrWestLower { get; set; }
-        public string BurialAreaEastOrWestUpper { get; set; }
+        public int? BurialAreaEastOrWestLower { get; set; }
+        public int? BurialAreaEastOrWestUpper { get; set; }
         public string Burialxeorw { get; set; }
         public string Square { get; set; }
         public string BurialNumber { get; set; }
@@ -49,12 +51,11 @@ namespace Mummies.Models.MummyDb
         public string BurialWestToFeet { get; set; }
         public string BurialSouthToHead { get; set; }
         public string BurialSouthToFeet { get; set; }
-        public string BurialDepth { get; set; }
-        public string Length { get; set; }
+        public decimal? BurialDepth { get; set; }
+        public decimal? Length { get; set; }
         public string YearExcav { get; set; }
         public string MonthExcavated { get; set; }
         public string DateExcavated { get; set; }
-        public string Religion { get; set; }
         public string BurialDirection { get; set; }
         public string BurialPreservation { get; set; }
         public string BurialWrapping { get; set; }
@@ -76,6 +77,7 @@ namespace Mummies.Models.MummyDb
         public string LengthM { get; set; }
         public string LengthCm { get; set; }
         public string Goods { get; set; }
+        public string Photo { get; set; }
         public string Cluster { get; set; }
         public string FaceBundle { get; set; }
         public string OsteologyNotes { get; set; }
