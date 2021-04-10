@@ -28,20 +28,41 @@ using Mummies.Models;
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
+using Mummies.Models.MummyDb;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 4 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
 using Mummies.Models.ViewModels.Admin;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
+using Mummies.Models.ViewModels.Home;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
+using Mummies.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7202026e4c53a5b5ad5aadf1874b8e79740edbfc", @"/Views/Admin/ListRolesAndUsers.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cd5b1bd31096afb74c0452d549738fafcc655354", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4df31fd300da8954f004c44d5d9bc89b90795511", @"/Views/_ViewImports.cshtml")]
     public class Views_Admin_ListRolesAndUsers : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<RoleUserListViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-area", "Identity", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -85,7 +106,7 @@ using Mummies.Models.ViewModels.Admin;
 #line hidden
 #nullable disable
             WriteLiteral("<br />\r\n<h1>Manage User Roles &emsp;");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7202026e4c53a5b5ad5aadf1874b8e79740edbfc6102", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7202026e4c53a5b5ad5aadf1874b8e79740edbfc6680", async() => {
                 WriteLiteral("Create New User");
             }
             );
@@ -153,7 +174,7 @@ using Mummies.Models.ViewModels.Admin;
 #line hidden
 #nullable disable
             WriteLiteral("            </div>\r\n            <div class=\"card-footer w-100\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7202026e4c53a5b5ad5aadf1874b8e79740edbfc9603", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7202026e4c53a5b5ad5aadf1874b8e79740edbfc10181", async() => {
                 WriteLiteral("Edit Users");
             }
             );
@@ -229,7 +250,7 @@ using Mummies.Models.ViewModels.Admin;
 #line hidden
 #nullable disable
             WriteLiteral("            </div>\r\n            <div class=\"card-footer w-100\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7202026e4c53a5b5ad5aadf1874b8e79740edbfc14143", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7202026e4c53a5b5ad5aadf1874b8e79740edbfc14722", async() => {
                 WriteLiteral("Edit Users");
             }
             );

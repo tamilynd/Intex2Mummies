@@ -28,20 +28,41 @@ using Mummies.Models;
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
+using Mummies.Models.MummyDb;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 4 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
 using Mummies.Models.ViewModels.Admin;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
+using Mummies.Models.ViewModels.Home;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
+using Mummies.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"10fd0f66779764528d49ccbcc0ca1af61e12c4de", @"/Views/Admin/EditUsersInRole.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cd5b1bd31096afb74c0452d549738fafcc655354", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4df31fd300da8954f004c44d5d9bc89b90795511", @"/Views/_ViewImports.cshtml")]
     public class Views_Admin_EditUsersInRole : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<UserRoleViewModel>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("form-check-input"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -90,7 +111,7 @@ using Mummies.Models.ViewModels.Admin;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10fd0f66779764528d49ccbcc0ca1af61e12c4de6692", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10fd0f66779764528d49ccbcc0ca1af61e12c4de7270", async() => {
                 WriteLiteral("\r\n    <div class=\"card\">\r\n        <div class=\"card-header\">\r\n            <h2>Add or remove users from ");
 #nullable restore
 #line 11 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\Admin\EditUsersInRole.cshtml"
@@ -109,7 +130,7 @@ using Mummies.Models.ViewModels.Admin;
 #line hidden
 #nullable disable
                 WriteLiteral("            <div class=\"form-check m-1\">\r\n                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "10fd0f66779764528d49ccbcc0ca1af61e12c4de7716", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "10fd0f66779764528d49ccbcc0ca1af61e12c4de8294", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -133,7 +154,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "10fd0f66779764528d49ccbcc0ca1af61e12c4de9548", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "10fd0f66779764528d49ccbcc0ca1af61e12c4de10126", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -157,7 +178,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "10fd0f66779764528d49ccbcc0ca1af61e12c4de11378", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "10fd0f66779764528d49ccbcc0ca1af61e12c4de11957", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -179,7 +200,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10fd0f66779764528d49ccbcc0ca1af61e12c4de12979", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10fd0f66779764528d49ccbcc0ca1af61e12c4de13558", async() => {
                     WriteLiteral("\r\n                    ");
 #nullable restore
 #line 21 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\Admin\EditUsersInRole.cshtml"
@@ -218,7 +239,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
 #line hidden
 #nullable disable
                 WriteLiteral("        </div>\r\n        <div class=\"card-footer\">\r\n            <input type=\"submit\" value=\"Update\" class=\"btn btn-primary\" style=\"background-color: #002e5d; color:white;\"/>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10fd0f66779764528d49ccbcc0ca1af61e12c4de15344", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10fd0f66779764528d49ccbcc0ca1af61e12c4de15923", async() => {
                     WriteLiteral("Cancel");
                 }
                 );

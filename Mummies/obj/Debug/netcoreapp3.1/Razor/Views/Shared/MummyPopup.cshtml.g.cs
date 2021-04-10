@@ -28,20 +28,41 @@ using Mummies.Models;
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
+using Mummies.Models.MummyDb;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 4 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
 using Mummies.Models.ViewModels.Admin;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
+using Mummies.Models.ViewModels.Home;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\Views\_ViewImports.cshtml"
+using Mummies.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a324dce6fd0da2ebb1b84a842fb4cb877e8b7150", @"/Views/Shared/MummyPopup.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cd5b1bd31096afb74c0452d549738fafcc655354", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4df31fd300da8954f004c44d5d9bc89b90795511", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_MummyPopup : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
