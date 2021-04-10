@@ -66,6 +66,11 @@ namespace Mummies.Controllers
             //Not sure how this will work yet, but it is here.
             return View();
         }
+        public IActionResult FullMummyData()
+        {
+            //Home page controller
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
