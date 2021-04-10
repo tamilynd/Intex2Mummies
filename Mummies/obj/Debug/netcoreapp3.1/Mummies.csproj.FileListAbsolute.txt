@@ -422,3 +422,4 @@ C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mumm
 /Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.Views.pdb
 /Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.csproj.CopyComplete
 /Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.genruntimeconfig.cache
+/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/FagElGamousDatabaseByLocation.cshtml.g.cs

@@ -4,12 +4,21 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Mummies.Models.MummyDb;
 
 namespace Mummies.Controllers
 {
-    [Authorize (Roles = "Researcher, Admin")]
+    //[Authorize (Roles = "Researcher, Admin")]
     public class ResearcherController : Controller
     {
+        //add the _context (allows you to edit/delete)
+        private MummyDbContext _context { get; set; }
+
+        //constructor
+        public ResearcherController(MummyDbContext con)
+        {
+            _context = con;
+        }
 
         [HttpGet]
         public IActionResult AddMummy()
@@ -19,18 +28,31 @@ namespace Mummies.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddMummy(string x /*mummy from form*/)
+        public IActionResult AddMummy(FagElGamousDatabaseByLocation loc /*mummy from form*/)
         {
-            //This View is for Submitting the add mummy form, it will not add to the database, 
-            //just pass it along to the mummy confirmation view
-            return View("MummyConfirmation" /*, mummy*/);
+            //This will submit the confirmed mummy to the database and return the researcher 
+            //back to the home page.
+
+            //generate the primary key
+            loc.BurialId = loc.Burialnors + " " + loc.BurialAreaNorthOrSouthLower + "/" +
+                loc.BurialAreaNorthOrSouthUpper + " " + loc.Burialxeorw + " " +
+                loc.BurialAreaEastOrWestLower + "/" + loc.BurialAreaEastOrWestUpper + " " +
+                loc.Square + " #" + loc.BurialNumber;
+
+            if (ModelState.IsValid)
+            {
+                _context.FagElGamousDatabaseByLocation.Add(loc);
+                _context.SaveChanges();
+            }
+
+            return View("Index");
         }
 
         [HttpPost]
         public IActionResult AddConfirmation(string x /*mummy from confirmation*/)
         {
-            //This will submit the confirmed mummy to the database and return the researcher 
-            //back to the home page.
+
+
             return View("Index");
         }
 
