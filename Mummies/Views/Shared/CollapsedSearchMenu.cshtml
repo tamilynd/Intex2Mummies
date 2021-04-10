@@ -1,0 +1,211 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <form class="p-3">
+        <h6 class="byu-text">Location</h6>
+        <label>North Minimum Coordinates</label>
+        <select id="northmax" name="northmax">
+            <option value="">-</option>
+            <option value="0">0</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+            <option value="70">70</option>
+            <option value="80">80</option>
+            <option value="90">90</option>
+            <option value="100">100</option>
+            <option value="110">110</option>
+            <option value="120">120</option>
+            <option value="130">130</option>
+            <option value="140">140</option>
+            <option value="150">150</option>
+            <option value="160">160</option>
+            <option value="170">170</option>
+            <option value="180">180</option>
+            <option value="190">190</option>
+            <option value="200">200</option>
+        </select>
+        <label>North Maximum Coordinates</label>
+        <select id="northmax" name="northmax">
+            <option value="">-</option>
+            <option value="0">0</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+            <option value="70">70</option>
+            <option value="80">80</option>
+            <option value="90">90</option>
+            <option value="100">100</option>
+            <option value="110">110</option>
+            <option value="120">120</option>
+            <option value="130">130</option>
+            <option value="140">140</option>
+            <option value="150">150</option>
+            <option value="160">160</option>
+            <option value="170">170</option>
+            <option value="180">180</option>
+            <option value="190">190</option>
+            <option value="200">200</option>
+        </select>
+        <label>East Minimum Coordinates</label>
+        <select id="eastmin" name="eastmin">
+            <option value="">-</option>
+            <option value="0">0</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+            <option value="70">70</option>
+            <option value="80">80</option>
+            <option value="90">90</option>
+            <option value="100">100</option>
+        </select>
+        <label>East Maximum Cooridinates</label>
+        <select id="eastmax" name="eastmax">
+            <option value="">-</option>
+            <option value="0">0</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+            <option value="70">70</option>
+            <option value="80">80</option>
+            <option value="90">90</option>
+            <option value="100">100</option>
+        </select>
+        <br class="small" />
+        <input type="checkbox" id="westloc" name="westloc" checked />
+        <label id="westloc" name="westloc">Include West Burials</label>
+        <hr />
+        <h6 class="byu-text">Orientation</h6>
+        <div class="row">
+            <div class="col-6">
+                <input type="checkbox" id="westface" name="westface" checked />
+                <label id="westface" name="westface">West</label>
+            </div>
+            <div class="col-6">
+                <input type="checkbox" id="eastface" name="eastface" checked />
+                <label id="eastface" name="eastface">East</label>
+            </div>
+        </div>
+        <hr />
+        <h6 class="byu-text">Burial Depth</h6>
+        <label id="depthmin" name="depthmin">Minimum Depth (m)</label>
+        <input type="number" id="depthmin" name="depthmin" min="0" max="5" value="0" />
+        <label id="depthmax" name="depthmax">Maximum Depth (m)</label>
+        <input type="number" id="depthmax" name="depthmax" min="0" max="5" value="5" />
+        <hr />
+        <h6 class="byu-text">Hair Color</h6>
+        <div class="row">
+            <div class="col-4">
+                <input type="checkbox" id="black" name="black" checked />
+                <label id="black" name="black">Black</label>
+            </div>
+            <div class="col-4">
+                <input type="checkbox" id="blond" name="blond" checked />
+                <label id="blond" name="blond">Blond</label>
+            </div>
+            <div class="col-4">
+                <input type="checkbox" id="brownred" name="brownred" checked />
+                <label id="brownred" name="brownred">Brown-Red</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <input type="checkbox" id="brown" name="brown" checked />
+                <label id="brown" name="brown">Brown</label>
+            </div>
+            <div class="col-4">
+                <input type="checkbox" id="red" name="red" checked />
+                <label id="red" name="red">Red</label>
+            </div>
+            <div class="col-4">
+                <input type="checkbox" id="unknown" name="unknown" checked />
+                <label id="unknown" name="unknown">Unknown</label>
+            </div>
+        </div>
+        <hr />
+        <h6 class="byu-text">Gender</h6>
+        <div class="row">
+            <div class="col-4">
+                <input type="checkbox" id="female" name="female" checked />
+                <label id="female" name="female">Female</label>
+            </div>
+            <div class="col-4">
+                <input type="checkbox" id="male" name="male" checked />
+                <label id="male" name="male">Male</label>
+            </div>
+            <div class="col-4">
+                <input type="checkbox" id="unknowngender" name="unknowngender" checked />
+                <label id="unknowngender" name="unknowngender">Unknown</label>
+            </div>
+        </div>
+        <hr />
+        <h6 class="byu-text">Age</h6>
+        <div class="row">
+            <div class="col-6">
+                <input type="checkbox" id="adult" name="adult" checked />
+                <label id="adult" name="adult">Adult - year 15+</label>
+            </div>
+            <div class="col-6">
+                <input type="checkbox" id="child" name="child" checked />
+                <label id="child" name="child">Child - years 3-15</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <input type="checkbox" id="infant" name="infant" checked />
+                <label id="infant" name="infant">Infant - years 1-3</label>
+            </div>
+            <div class="col-6">
+                <input type="checkbox" id="newborn" name="newborn" checked />
+                <label id="newborn" name="newborn">Newborn - year 0-1</label>
+            </div>
+        </div>
+        <input type="checkbox" id="unknownage" name="unknownage" checked />
+        <label id="unknownage" name="unknownage">Unknown</label>
+        <hr />
+        <h6 class="byu-text">Wrappings</h6>
+        <div class="col-12">
+            <input type="checkbox" id="boneswrap" name="boneswrap" checked />
+            <label id="boneswrap" name="boneswrap">Bones/Little Wrapping</label>
+        </div>
+        <div class="col-12">
+            <input type="checkbox" id="fullwrap" name="fullwrap" checked />
+            <label id="fullwrap" name="fullwrap">Full/Nearly Full Wrapping</label>
+        </div>
+        <div class="col-12">
+            <input type="checkbox" id="partialwrap" name="partialwrap" checked />
+            <label id="partialwrap" name="partialwrap">Partial Wrapping</label>
+        </div>
+        <div class="col-12">
+            <input type="checkbox" id="unknownwrap" name="unknownwrap" checked />
+            <label id="unknownwrap" name="unknownwrap">Unknown</label>
+        </div>
+        <label id="wr/div>*wrappings" name="wrappings">Wrapping Search Terms (separated by commas)</label>
+        <input type="text" id="wrappings" name="wrappings" />
+        <hr />
+        <h6 class="byu-text">Items</h6>
+        <label id="items" name="items">Item Search Terms (separated by commas)</label>
+        <input type="text" id="items" name="items" />
+
+    </form>
+
+</div>
+<button class="openbtn float-left" onclick="openNav()">Change Search Parameters</button>
+

@@ -4754,7 +4754,7 @@ input[type="button"].btn-block {
   margin-bottom: 0.75rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 200px) {
   .card-columns {
     -webkit-column-count: 3;
     -moz-column-count: 3;

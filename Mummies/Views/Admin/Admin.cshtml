@@ -5,8 +5,26 @@
 }
 @*This is the admin page, where the database will be displayed (if an authenticated admin) and allow the admin to add/update/delete any mummies from the database*@
 
-<div>
-    <p>This is the admin page, where the database will be displayed (if an authenticated admin) and allow the admin to add/update/delete any mummies from the database. There are probably a lot of options for this and resources found online.</p>
-    <a asp-controller="Admin" asp-action="ListRolesAndUsers">Edit User Roles</a>
-
+<div class="container">
+    <div class="jumbotron jumbotron-fluid desert-background">
+        <h1>Administration Site</h1>
+        <h5>Control researcher access, edit the database, and add new researchers</h5>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-4 text-center">
+            <div class="w-100 align-content-center">
+                <h3><a asp-controller="Admin" asp-action="Admin" class="byu-text hyperlink">Manage and Edit Database</a></h3>
+                <p>High-level database management tool that allows for adding, updating, and deleting burial records and attributes. Also includes searching capabilities that allow for efficient database management.</p>
+            </div>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-4 text-center">
+            <div class="w-100 align-content-center">
+                <h3><a asp-controller="Admin" asp-action="ListRolesAndUsers" class="byu-text hyperlink">Manage Users and User Permissions</a></h3>
+                <p>Manage which accounts have access to adding new burials (<i>Researcher permissions</i>) and updating, deleting and managing permissions (<i>Admin permissions</i>) and add users to authentication database.</p>
+            </div>
+        </div>
+    </div>
 </div>
+
