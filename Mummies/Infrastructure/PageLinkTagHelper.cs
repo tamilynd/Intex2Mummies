@@ -27,7 +27,7 @@ namespace Mummies.Infrastructure
         public ViewContext ViewContext { get; set; }
 
         //Pull in ViewModel Class Object
-        public PagingInfo PageModel { get; set; }
+        public SearchDatabaseViewModel PageModel { get; set; }
         public string PageAction { get; set; }
 
 
@@ -47,14 +47,15 @@ namespace Mummies.Infrastructure
             TagBuilder result = new TagBuilder("div");
 
             //loop through each page that is needed for the site and create links for each
-            for (int i = 1; i <= PageModel.TotalPages; i++) 
+            for (int i = 1; i <= PageModel.PagingInfo.TotalPages; i++) 
             {
-                if(i==PageModel.CurrentPage||i==1||i==PageModel.TotalPages||i==PageModel.CurrentPage-1 
-                    || i == PageModel.CurrentPage + 1 || PageModel.TotalPages < 6) { 
+                if(i==PageModel.PagingInfo.CurrentPage||i==1||i==PageModel.PagingInfo.TotalPages||i==PageModel.PagingInfo.CurrentPage-1 
+                    || i == PageModel.PagingInfo.CurrentPage + 1 || PageModel.PagingInfo.TotalPages < 6) { 
                     //create a tag
                     TagBuilder tag = new TagBuilder("a");
 
                     PageUrlValues["pageNum"] = i;
+                    PageUrlValues["queryUrl"] = PageModel.queryUrl;
 
                     //add href of tag
                     tag.Attributes["href"] = urlHelper.Action(PageAction, PageUrlValues);
@@ -62,7 +63,7 @@ namespace Mummies.Infrastructure
                     if(PageClassesEnabled)
                     {
                         tag.AddCssClass(PageClass);
-                        tag.AddCssClass(i == PageModel.CurrentPage ? PageClassSelected : PageClassNormal);
+                        tag.AddCssClass(i == PageModel.PagingInfo.CurrentPage ? PageClassSelected : PageClassNormal);
                     }
                     //add innerhtml
                     tag.InnerHtml.Append(i.ToString());

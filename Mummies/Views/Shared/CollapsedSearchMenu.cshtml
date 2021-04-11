@@ -86,8 +86,8 @@
             <option value="100">100</option>
         </select>
         <br class="small" />
-        <input type="checkbox" asp-for="West"value="@Model.West"  />
-        <label asp-for="West" >Include West Burials</label>
+        <input type="checkbox" asp-for="West" value="@Model.West" />
+        <label asp-for="West">Include West Burials</label>
         <hr />
         <h6 class="byu-text">Orientation</h6>
         <div class="row">
@@ -99,7 +99,7 @@
             </div>
             <div class="col-4">
                 <input asp-for="@Model.EastOrient" class="form-check-input" />
-                <label asp-for="@Model.EastOrient" >West</label>
+                <label asp-for="@Model.EastOrient">West</label>
             </div>
             <div class="col-4">
                 <input asp-for="@Model.UnknownOrient" class="form-check-input" />
@@ -109,8 +109,8 @@
         <hr />
         <h6 class="byu-text">Burial Depth</h6>
         <label asp-for="DepthMin">Minimum Depth (m)</label>
-        <input asp-for="DepthMin" type="number"  min="0" max="5" value="@Model.DepthMin" />
-        <label asp-for="DepthMax" >Maximum Depth (m)</label>
+        <input asp-for="DepthMin" type="number" min="0" max="5" value="@Model.DepthMin" />
+        <label asp-for="DepthMax">Maximum Depth (m)</label>
         <input asp-for="DepthMax" type="number" min="0" max="5" value="@Model.DepthMax" />
         <hr />
         <h6 class="byu-text">Hair Color</h6>
@@ -120,41 +120,41 @@
                 <label asp-for="@Model.Black">Black</label>
             </div>
             <div class="col-4">
-                <input asp-for="@Model.Blond" class="form-check-input"/>
-                <label asp-for="@Model.Blond" >Blond</label>
+                <input asp-for="@Model.Blond" class="form-check-input" />
+                <label asp-for="@Model.Blond">Blond</label>
             </div>
             <div class="col-4">
-                <input asp-for="@Model.BrownRed" class="form-check-input"/>
+                <input asp-for="@Model.BrownRed" class="form-check-input" />
                 <label asp-for="@Model.BrownRed">Brown/Red</label>
             </div>
         </div>
         <div class="row">
             <div class="col-4">
-                <input asp-for="@Model.Brown" class="form-check-input"/>
+                <input asp-for="@Model.Brown" class="form-check-input" />
                 <label asp-for="@Model.Brown">Brown</label>
             </div>
             <div class="col-4">
-                <input asp-for="@Model.Red" class="form-check-input"/>
-                <label asp-for="@Model.Red" >Red</label>
+                <input asp-for="@Model.Red" class="form-check-input" />
+                <label asp-for="@Model.Red">Red</label>
             </div>
             <div class="col-4">
-                <input asp-for="@Model.UnknownColor" class="form-check-input"/>
-                <label asp-for="@Model.UnknownColor" >Unknown</label>
+                <input asp-for="@Model.UnknownColor" class="form-check-input" />
+                <label asp-for="@Model.UnknownColor">Unknown</label>
             </div>
         </div>
         <hr />
         <h6 class="byu-text">Gender</h6>
         <div class="row">
             <div class="col-4">
-                <input asp-for="@Model.Female" class="form-check-input"/>
+                <input asp-for="@Model.Female" class="form-check-input" />
                 <label asp-for="@Model.Female">Female</label>
             </div>
             <div class="col-4">
-                <input asp-for="@Model.Male" class="form-check-input"/>
-                <label asp-for="@Model.Male" >Male</label>
+                <input asp-for="@Model.Male" class="form-check-input" />
+                <label asp-for="@Model.Male">Male</label>
             </div>
             <div class="col-4">
-                <input asp-for="@Model.UnknownGender" class="form-check-input"/>
+                <input asp-for="@Model.UnknownGender" class="form-check-input" />
                 <label asp-for="@Model.UnknownGender">Unknown</label>
             </div>
         </div>
@@ -162,11 +162,11 @@
         <h6 class="byu-text">Age</h6>
         <div class="row">
             <div class="col-6">
-                <input asp-for="@Model.Adult" class="form-check-input"/>
-                <label asp-for="@Model.Adult" >Adult - year 15+</label>
+                <input asp-for="@Model.Adult" class="form-check-input" />
+                <label asp-for="@Model.Adult">Adult - year 15+</label>
             </div>
             <div class="col-6">
-                <input asp-for="@Model.Child" class="form-check-input"/>
+                <input asp-for="@Model.Child" class="form-check-input" />
                 <label asp-for="@Model.Child">Child - years 3-15</label>
             </div>
         </div>
@@ -176,38 +176,49 @@
                 <label asp-for="@Model.Infant">Infant - years 1-3</label>
             </div>
             <div class="col-6">
-                <input asp-for="@Model.Newborn" class="form-check-input"/>
+                <input asp-for="@Model.Newborn" class="form-check-input" />
                 <label asp-for="@Model.Newborn">Newborn - year 0-1</label>
             </div>
         </div>
-        <input asp-for="@Model.UnknownAge" class="form-check-input"/>
+        <input asp-for="@Model.UnknownAge" class="form-check-input" />
         <label asp-for="@Model.UnknownAge">Unknown</label>
         <hr />
         <h6 class="byu-text">Wrappings</h6>
         <div class="col-12">
-            <input asp-for="@Model.LittleBones" class="form-check-input"/>
+            <input asp-for="@Model.LittleBones" class="form-check-input" />
             <label asp-for="@Model.LittleBones">Bones/Little Wrapping</label>
         </div>
         <div class="col-12">
-            <input asp-for="@Model.FullWrap" class="form-check-input"/>
+            <input asp-for="@Model.FullWrap" class="form-check-input" />
             <label asp-for="@Model.FullWrap">Full/Nearly Full Wrapping</label>
         </div>
         <div class="col-12">
-            <input asp-for="@Model.PartialWrap" class="form-check-input"/>
+            <input asp-for="@Model.PartialWrap" class="form-check-input" />
             <label asp-for="@Model.PartialWrap">Partial Wrapping</label>
         </div>
         <div class="col-12">
-            <input asp-for="@Model.UnknownWrap" class="form-check-input"/>
+            <input asp-for="@Model.UnknownWrap" class="form-check-input" />
             <label asp-for="@Model.UnknownWrap">Unknown</label>
         </div>
         <label asp-for="WrapWords">Wrapping Search Terms (separated by commas)</label>
-        <input asp-for="WrapWords" type="text" value="@Model.WrapWords"/>
+        <input asp-for="WrapWords" type="text" value="@Model.WrapWords" />
         <hr />
         <h6 class="byu-text">Items</h6>
-        <label asp-for="ItemWords">Item Search Terms (separated by commas)</label>
-        <input asp-for="ItemWords" type="text" value="@Model.ItemWords"/>
-
-        <input type="submit" class="btn byu-color" value="Search" />
+        <div class="row">
+            <div class="col-6">
+                <input asp-for="@Model.ItemsFound" class="form-check-input" />
+                <label asp-for="@Model.ItemsFound">Artifacts Found</label>
+            </div>
+            <div class="col-6">
+                <input asp-for="@Model.NoItemsFound" class="form-check-input" />
+                <label asp-for="@Model.NoItemsFound">No Artifacts</label>
+            </div>
+        </div>
+        <label asp-for="@Model.ItemWords">Item Search Terms (separated by commas)</label>
+        <input asp-for="@Model.ItemWords" type="text" value="@Model.ItemWords" />
+        <br />
+        <br />
+        <input type="submit" class="btn byu-color text-white" value="Search" />
     </form>
 
 </div>

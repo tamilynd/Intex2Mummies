@@ -11,8 +11,10 @@ namespace Mummies.Models.ViewModels
     public class SearchDatabaseViewModel
     {
         public List<FagElGamousDatabaseByLocation> Burials { get; set; }
+        public IEnumerable<Cranial2002> Cranial { get; set; }
         public PagingInfo PagingInfo { get; set; }
         public SearchInfo? CurrentSearch { get; set; }
+        public string queryUrl { get; set; }
 
     }
 }

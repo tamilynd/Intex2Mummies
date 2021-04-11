@@ -122,7 +122,17 @@
                                                     }
                                                 </h6>
                                                 <h6 class="byu-text small">Bone: <p class="card-text small">600</p></h6>
-                                                <h6 class="byu-text small">Items: <p class="card-text small">3 stuff</p></h6>
+                                                <h6 class="byu-text small">
+                                                    Items:
+                                                    @if (Model.Cranial.Where(b => b.BurialId == x.BurialId).Where(b => b.BuriedWithArtifacts == true).Count() != 0)
+                                                    {
+                                                        <p class="card-text small">Buried with Artifacts</p>
+                                                    }
+                                                    else
+                                                    {
+                                                        <p class="card-text small">No Artifacts</p>
+                                                    }
+                                                </h6>
                                             </container>
                                         </div>
                                     </div>
@@ -135,7 +145,7 @@
             </div>
         </div>
     </div>
-    <div page-model="@Model.PagingInfo" page-action="DatabaseSearch" page-classes-enabled="true" page-class="btn" page-class-normal="btn-outline-dark" page-class-selected="btn-info" class="btn-group pull-right m-1"></div>
+    <div page-model="@Model" page-action="DatabaseSearch" page-classes-enabled="true" page-class="btn" page-class-normal="btn-outline-dark" page-class-selected="byu-color text-white" class="btn-group pull-right m-1"></div>
 </div>
 
 
