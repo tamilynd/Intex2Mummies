@@ -1,0 +1,261 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model FagElGamousDatabaseByLocation
+
+
+
+    FieldBook
+    FieldBookPageNumber
+    InitialsOfDataEntryExpert
+    InitialsOfDataEntryChecker
+    ByuSample
+    BodyAnalysis
+    SkullAtMagazine
+    PostcraniaAtMagazine
+    SexSkull2018
+    AgeSkull2018
+    RackAndShelf
+    ToBeConfirmed
+    SkullTrauma
+    PostcraniaTrauma
+    CribraOrbitala
+    PoroticHyperostosis
+    PoroticHyperostosisLocations
+    MetopicSuture
+    ButtonOsteoma
+    PostcraniaTrauma2
+    OsteologyUnknownComment
+    TemporalMandibularJointOsteoarthritisTmjOa
+    LinearHypoplasiaEnamel
+    AreaHillBurials
+    Tomb
+    YearExcav
+    MonthExcavated
+    DateExcavated
+    Religion
+    BurialDirection
+    BurialPreservation
+    BurialWrapping
+    BurialWrappingCode
+    AdultChild
+    BurialAdultChild
+    Gender
+    GenderCode
+    Burialgendermethod
+    Age
+    AgeCodeSingle
+    BurialDirection2
+    Burialageatdeath
+    Burialagemethod
+    HairColor
+    HairColorCode
+    Burialhaircolor
+    Burialsampletaken
+    LengthM
+    LengthCm
+    Goods
+    Cluster
+    FaceBundle
+    OsteologyNotes
+
+
+<h2>General Info</h2>
+<br />
+<!--Skull Info-->
+<div>
+    <div>
+        <label asp-for="YearOnSkull">Year on Skull: </label>
+        <input class="form-control" asp-for="YearOnSkull" />
+    </div>
+
+    <div>
+        <label asp-for="MonthOnSkull">Month on Skull: </label>
+        <input class="form-control" asp-for="MonthOnSkull" />
+    </div>
+
+    <div>
+        <label asp-for="DateOnSkull">Date on Skull: </label>
+        <input class="form-control" asp-for="DateOnSkull" />
+    </div>
+</div>
+
+<!--Field Book-->
+<div>
+    <div>
+        <label asp-for="FieldBook">Field Book: </label>
+        <input class="form-control" asp-for="FieldBook" />
+    </div>
+
+    <div>
+        <label asp-for="FieldBookPageNumber">Field Book Page Number: </label>
+        <input class="form-control" asp-for="FieldBookPageNumber" />
+    </div>
+
+    <div>
+        <label asp-for="InitialsOfDataEntryExpert">Intials of Data Entry Expert: </label>
+        <input class="form-control" asp-for="InitialsOfDataEntryExpert" />
+    </div>
+
+    <div>
+        <label asp-for="InitialsOfDataEntryChecker">Initials of Data Entry Checker: </label>
+        <input class="form-control" asp-for="InitialsOfDataEntryChecker" />
+    </div>
+</div>
+
+
+
+
+<div>
+    <label asp-for="Length">Length: </label>
+    <input class="form-control" asp-for="Length" />
+</div>
+
+<div>
+    <label asp-for="Length">Length: </label>
+    <input class="form-control" asp-for="Length" />
+</div>
+<div>
+    <label asp-for="Length">Length: </label>
+    <input class="form-control" asp-for="Length" />
+</div>
+<div>
+    <label asp-for="Length">Length: </label>
+    <input class="form-control" asp-for="Length" />
+</div>
+
+<div>
+    <label asp-for="Burialxeorw">East/West (E/W): </label>
+    <select class="form-control" id="" name="" asp-for="Burialxeorw">
+        <option value="E">East</option>
+        <option value="W">West</option>
+    </select>
+</div>
+
+
+
+<div>
+    <label asp-for="BurialAreaEastOrWestLower">Lower Bound: </label>
+    <input class="form-control" asp-for="BurialAreaEastOrWestLower" />
+</div>
+
+
+
+<div>
+    <label asp-for="BurialAreaEastOrWestUpper">Upper Bound: </label>
+    <input class="form-control" asp-for="BurialAreaEastOrWestUpper" />
+</div>
+
+
+
+<!--Area-->
+<div>
+    <label asp-for="Square" for="">Area: </label>
+    <select class="form-control" id="area" name="area" asp-for="Square">
+        <option value="NE">NE</option>
+        <option value="NW">NW</option>
+        <option value="SE">SE</option>
+        <option value="SW">SW</option>
+    </select>
+</div>
+
+
+
+<!--Burial Number-->
+
+
+
+<div>
+    <label asp-for="BurialNumber">Burial Number: </label>
+    <input class="form-control" asp-for="BurialNumber" />
+</div>
+
+
+
+<br />
+<hr />
+<br />
+
+
+
+
+
+<h2>Metrics</h2>
+<br />
+
+
+
+<div>
+    <label asp-for="BurialSouthToHead">South to Head: </label>
+    <input class="form-control" asp-for="BurialSouthToHead" />
+</div>
+
+
+
+<div>
+    <label asp-for="BurialSouthToFeet">South to Feet: </label>
+    <input class="form-control" asp-for="BurialSouthToFeet" />
+</div>
+
+
+
+<div>
+    <label asp-for="BurialWestToHead">West to Head: </label>
+    <input class="form-control" asp-for="BurialWestToHead" />
+</div>
+
+
+
+<div>
+    <label asp-for="BurialWestToFeet">West to Feet: </label>
+    <input class="form-control" asp-for="BurialWestToFeet" />
+</div>
+
+
+
+<div>
+    <label asp-for="Length">Length: </label>
+    <input class="form-control" asp-for="Length" />
+</div>
+
+
+
+<div>
+    <label asp-for="BurialDepth">Depth: </label>
+    <input class="form-control" asp-for="BurialDepth" />
+</div>
+
+
+
+<br />
+<hr />
+<br />
+
+
+
+<h2>Observation</h2>
+<br />
+
+<!--
+<div>
+    <label asp-for="">Photo: </label>
+    <select class="form-control" id="photo" name="Photo" asp-for="">
+        <option value="Y">Yes</option>
+        <option value="N">No</option>
+    </select>
+</div>
+    -->
+
+
+<div>
+    <label asp-for="Goods">Burial Goods: </label>
+    <select class="form-control" id="goods" name="Goods" asp-for="Goods">
+        <option value="Y">Yes</option>
+        <option value="N">No</option>
+        <option value="U">Unknown</option>
+    </select>
+</div>

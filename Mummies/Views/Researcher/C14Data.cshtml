@@ -1,0 +1,99 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model C14Data
+
+<!--For Carbon 14 Dating Table-->
+<form>
+    <div>
+        <div>
+            <h2>
+                Carbon 14 Testing
+            </h2>
+        </div>
+
+        <div>
+            <label asp-for="Rack">Rack: </label>
+            <input class="form-control" asp-for="Rack" />
+        </div>
+
+        <div>
+            <label asp-for="Tube">Tube #: </label>
+            <input class="form-control" asp-for="Tube" />
+        </div>
+        <div>
+            <label asp-for="Description">Description: </label>
+            <input class="form-control" asp-for="Description" />
+        </div>
+        <div>
+            <label asp-for="SizeMl">Size (ml): </label>
+            <input class="form-control" asp-for="SizeMl" />
+        </div>
+        <div>
+            <label asp-for="Foci">Foci: </label>
+            <input class="form-control" asp-for="Foci" />
+        </div>
+
+        <div>
+            <label asp-for="C14Sample2017">C14 Sample 2017: </label>
+            <input class="form-control" asp-for="C14Sample2017" />
+        </div>
+
+        <div>
+            <label asp-for="Location">Location: </label>
+            <input class="form-control" asp-for="Location" />
+        </div>
+
+        <div>
+            <label asp-for="QuestionS">Questions: </label>
+            <input class="form-control" asp-for="QuestionS" />
+        </div>
+
+        <div>
+            <h3>Carbon 14 Dates</h3>
+            <div>
+                <label asp-for="Conventional14cAgeBp">Conventional 14C Age BP: </label>
+                <input class="form-control" asp-for="Conventional14cAgeBp" />
+            </div>
+
+            <div>
+                <label asp-for="_14cCalendarDate">14C Calendar Date: </label>
+                <input class="form-control" asp-for="_14cCalendarDate" />
+            </div>
+
+            <div>
+                <label asp-for="Calibrated95CalendarDateMax">Calibrated 95% Calendar Date Max: </label>
+                <input class="form-control" asp-for="Calibrated95CalendarDateMax" />
+            </div>
+
+            <div>
+                <label asp-for="Calibrated95CalendarDateMin">Calibrated 95% Calendar Date Min: </label>
+                <input class="form-control" asp-for="Calibrated95CalendarDateMin" />
+            </div>
+
+            <div>
+                <label asp-for="Calibrated95CalendarDateSpan">Calibrated 95% Calendar Date Span: </label>
+                <input class="form-control" asp-for="Calibrated95CalendarDateSpan" />
+            </div>
+
+            <div>
+                <label asp-for="Calibrated95CalendarDateAvg">Calibrated 95% Calendar Date Average: </label>
+                <input class="form-control" asp-for="Calibrated95CalendarDateAvg" />
+            </div>
+        </div>
+
+        <div>
+            <label asp-for="Category">Cateogory: </label>
+            <input class="form-control" asp-for="Category" />
+        </div>
+        <div>
+            <label asp-for="Notes">Notes: </label>
+            <input class="form-control" asp-for="Notes" />
+        </div>
+
+
+    </div>
+</form>
