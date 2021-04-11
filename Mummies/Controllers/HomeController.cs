@@ -34,17 +34,42 @@ namespace Mummies.Controllers
             return View();
         }
 
-        public IActionResult DatabaseSearch(SearchInfo? search, int PageNum = 1)
+        [HttpGet]
+        public IActionResult DatabaseSearch(int PageNum = 1)
         {
-           //IQueryable<FagElGamousDatabaseByLocation> query = search.GetQuery( _repository);
+
+            IQueryable<FagElGamousDatabaseByLocation> query = _repository.FagElGamousDatabaseByLocation;
+
+            SearchDatabaseViewModel model = new SearchDatabaseViewModel
+            {
+                Burials = query
+                    .OrderBy(b => b.BurialId)
+                    .Skip((PageNum - 1) * PageSize)
+                    .Take(PageSize).ToList(),
+                PagingInfo = new PagingInfo
+                {
+                    TotalNumItems = query
+                        .Count(),
+                    ItemsPerPage = PageSize,
+                    CurrentPage = PageNum
+                },
+                CurrentSearch = new SearchInfo()
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult DatabaseSearch(SearchInfo search, int PageNum = 1)
+        {
 
             IQueryable<FagElGamousDatabaseByLocation> query = _repository.FagElGamousDatabaseByLocation;
 
             //Location
-            //query = query.Where(b => b.BurialAreaNorthOrSouthUpper >= search.NorthMin);
-            //query = query.Where(b => b.BurialAreaEastOrWestUpper >= search.EastMin);
-            //query = query.Where(b => b.BurialAreaNorthOrSouthLower >= search.NorthMax);
-            //query = query.Where(b => b.BurialAreaEastOrWestLower >= search.EastMax);
+            query = query.Where(b => b.BurialAreaNorthOrSouthUpper >= search.NorthMin);
+            query = query.Where(b => b.BurialAreaEastOrWestUpper >= search.EastMin);
+            query = query.Where(b => b.BurialAreaNorthOrSouthLower <= search.NorthMax);
+            query = query.Where(b => b.BurialAreaEastOrWestLower <= search.EastMax);
             if (!search.West)
             {
                 query = query.Where(b => b.Burialxeorw == "E");
@@ -57,6 +82,8 @@ namespace Mummies.Controllers
                 {
                     query = query.Where(b => b.BurialDirection != "U");
                     query = query.Where(b => b.BurialDirection != "");
+                    query = query.Where(b => b.BurialDirection != null);
+
                 }
                 if (!search.WestOrient)
                 {
@@ -68,9 +95,16 @@ namespace Mummies.Controllers
                 }
             }
             //Depth
-            //query = query.Where(b => b.BurialDepth >= search.DepthMin);
-            //query = query.Where(b => b.BurialDepth <= search.DepthMax);
-
+            if (search.DepthMax == 5 && search.DepthMin == 0)
+            {
+                query = query.Where(b => b.BurialDepth >= search.DepthMin || b.BurialDepth == null);
+                query = query.Where(b => b.BurialDepth <= search.DepthMax || b.BurialDepth == null);
+            }
+            else
+            {
+                query = query.Where(b => b.BurialDepth >= search.DepthMin);
+                query = query.Where(b => b.BurialDepth <= search.DepthMax);
+            }
 
             //Hair
             if (search.Black || search.Blond || search.BrownRed || search.Brown || search.Red || search.UnknownColor)
@@ -99,6 +133,7 @@ namespace Mummies.Controllers
                 {
                     query = query.Where(b => b.HairColorCode != "U");
                     query = query.Where(b => b.HairColorCode != "");
+                    query = query.Where(b => b.HairColorCode != null);
                 }
             }
 
@@ -118,6 +153,8 @@ namespace Mummies.Controllers
                 {
                     query = query.Where(b => b.GenderCode != "U");
                     query = query.Where(b => b.GenderCode != "");
+                    query = query.Where(b => b.GenderCode != null);
+
                 }
             }
 
@@ -144,6 +181,8 @@ namespace Mummies.Controllers
                 {
                     query = query.Where(b => b.AgeCodeSingle != "U");
                     query = query.Where(b => b.AgeCodeSingle != "");
+                    query = query.Where(b => b.AgeCodeSingle != null);
+
                 }
             }
 
@@ -152,20 +191,21 @@ namespace Mummies.Controllers
             {
                 if (!search.LittleBones)
                 {
-                    query = query.Where(b => b.BurialWrapping != "B");
+                    query = query.Where(b => b.BurialWrappingCode != "B");
                 }
                 if (!search.FullWrap)
                 {
-                    query = query.Where(b => b.BurialWrapping != "W");
+                    query = query.Where(b => b.BurialWrappingCode != "W");
                 }
                 if (!search.PartialWrap)
                 {
-                    query = query.Where(b => b.BurialWrapping != "H");
+                    query = query.Where(b => b.BurialWrappingCode != "H");
                 }
                 if (!search.UnknownWrap)
                 {
-                    query = query.Where(b => b.BurialWrapping != "U");
-                    query = query.Where(b => b.BurialWrapping != "");
+                    query = query.Where(b => b.BurialWrappingCode != "U");
+                    query = query.Where(b => b.BurialWrappingCode != "");
+                    query = query.Where(b => b.BurialWrappingCode != null);
                 }
             }
 

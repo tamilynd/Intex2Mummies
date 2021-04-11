@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/Mummies.csproj": {}
+    "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj": {}
   },
   "projects": {
-    "/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/Mummies.csproj": {
+    "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/Mummies.csproj",
+        "projectUniqueName": "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj",
         "projectName": "Mummies",
-        "projectPath": "/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/Mummies.csproj",
-        "packagesPath": "/Users/masonmuir/.nuget/packages/",
-        "outputPath": "/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/",
+        "projectPath": "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj",
+        "packagesPath": "C:\\Users\\Tam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/masonmuir/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Tam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

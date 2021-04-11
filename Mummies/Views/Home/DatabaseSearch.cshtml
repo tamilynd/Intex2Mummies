@@ -9,7 +9,7 @@
 <div class="pb-4 text-center">
     <div class="row">
         <div class="col-1">
-            <partial name="CollapsedSearchMenu" model="Model.CurrentSearch" />
+            <partial name="CollapsedSearchMenu" model="@Model.CurrentSearch" />
         </div>
         <div class="col-11">
             <div class="row">
@@ -22,21 +22,105 @@
                                 <div class="card-body row">
                                     <div class="col-5">
                                         <h6 class="card-title">
-                                            Mummy Location
+                                            @x.BurialId
                                         </h6>
-                                        <h6 class="card-subtitle mb-2 text-muted"><small>Orientation: <i>West</i> </small></h6>
-                                        <h6 class="card-subtitle mb-2 text-muted"><small> Depth: <i>Yeehaw</i></small></h6>
+                                        <h6 class="card-subtitle mb-2 text-muted">
+                                        <small>
+                                            Orientation:
+                                            @if (x.BurialDirection == "W")
+                                            {
+                                                <i>
+                                                    West
+                                                </i>
+                                            }
+                                            else if (x.BurialDirection == "E")
+                                            {
+                                                <i>
+                                                    East
+                                                </i>
+                                            }
+                                            else
+                                            {
+                                                <i>
+                                                    Unknown
+                                                </i>
+                                            }
+                                        </small></h6>
+                                        <h6 class="card-subtitle mb-2 text-muted">
+                                        <small>
+                                            Depth:
+                                            @if (x.BurialDepth == 0 || x.BurialDepth is null)
+                                            {
+                                                <i>
+                                                    Unknown
+                                                </i>
+                                            }
+                                            else
+                                            {
+                                                <i>
+                                                    @x.BurialDepth
+                                                </i>
+                                            }
+                                        </small></h6>
                                         <br />
                                     </div>
                                     <div class="col-7">
                                         <div class="row">
                                             <container class="col-6">
-                                                <h6 class="byu-text small">Hair Color: <p class="card-text small">Brown</p></h6>
-                                                <h6 class="byu-text small">Wrapping:<p class="card-text small">yes?</p></h6>
-                                                <h6 class="byu-text small">Gender:<p class="card-text small">Male</p></h6>
+                                                <h6 class="byu-text small">
+                                                    Hair Color:
+                                                    @if (x.HairColorCode is null || x.HairColorCode == "U")
+                                                    {
+                                                        <p class="card-text small">Unknown</p>
+                                                    }
+                                                    else
+                                                    {
+                                                        <p class="card-text small">@x.HairColor</p>
+                                                    }
+                                                </h6>
+                                                <h6 class="byu-text small">
+                                                    Wrapping:
+                                                    @if (x.BurialWrappingCode is null || x.BurialWrappingCode == "U")
+                                                    {
+                                                        <p class="card-text small">Unknown</p>
+                                                    }
+                                                    else if (x.BurialWrappingCode == "W")
+                                                    {
+                                                        <p class="card-text small">Full Wrapping</p>
+                                                    }
+                                                    else if (x.BurialWrappingCode == "H")
+                                                    {
+                                                        <p class="card-text small">Partial Wrapping</p>
+                                                    }
+                                                    else if (x.BurialWrappingCode == "B")
+                                                    {
+                                                        <p class="card-text small">Very Little/No Wrapping</p>
+                                                    }
+                                                </h6>
+                                                <h6 class="byu-text small">
+                                                    Gender:
+                                                    @if (x.GenderCode is null || x.GenderCode == "U")
+                                                    {
+                                                        <p class="card-text small">Unknown</p>
+                                                    }
+                                                    else
+                                                    {
+                                                        <p class="card-text small">@x.Gender</p>
+                                                    }
+                                                </h6>
                                             </container>
                                             <container class="col-6">
-                                                <h6 class="byu-text small">Age: <p class="card-text small">Child</p></h6>
+                                                <h6 class="byu-text small">
+                                                    Age:
+                                                    @if (x.AgeCodeSingle is null || x.AgeCodeSingle == "U")
+                                                    {
+                                                        <p class="card-text small">Unknown</p>
+                                                    }
+                                                    else
+                                                    {
+                                                        <p class="card-text small">@x.Age</p>
+                                                    }
+                                                </h6>
                                                 <h6 class="byu-text small">Bone: <p class="card-text small">600</p></h6>
                                                 <h6 class="byu-text small">Items: <p class="card-text small">3 stuff</p></h6>
                                             </container>
