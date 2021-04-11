@@ -1,28 +1,38 @@
 ﻿<Properties StartupConfiguration="{7E510AE3-5873-4FB0-A027-457BF8A9415B}|Default">
   <MonoDevelop.Ide.ItemProperties.Mummies PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mummies/Views/Researcher/BiologicalSamples.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mummies/Controllers/ResearcherController.cs">
     <Files>
-      <File FileName="Mummies/Views/Researcher/AddMummy.cshtml" Line="168" Column="7" />
-      <File FileName="Mummies/Views/Researcher/UpdateMummy.cshtml" />
-      <File FileName="Mummies/Models/MummyDb/FagElGamousDatabaseByLocation.cs" Line="1" Column="1" />
-      <File FileName="Mummies/Views/Researcher/BurialId.cshtml" Line="157" Column="8" />
+      <File FileName="Mummies/Views/Researcher/AddMummy.cshtml" Line="178" Column="1" />
+      <File FileName="Mummies/Models/ViewModels/Researcher/NewMummyViewModel.cs" Line="16" Column="1" />
+      <File FileName="Mummies/Views/Researcher/UpdateMummy.cshtml" Line="23" Column="1" />
+      <File FileName="Mummies/Views/Researcher/BurialId.cshtml" Line="20" Column="1" />
       <File FileName="Mummies/Views/Researcher/C14Data.cshtml" Line="95" Column="15" />
       <File FileName="Mummies/Models/MummyDb/C14Data.cs" Line="25" Column="41" />
       <File FileName="Mummies/Models/MummyDb/Oraclespread.cs" Line="1" Column="2" />
-      <File FileName="Mummies/Views/Researcher/BiologicalSamples.cshtml" Line="1" Column="1" />
+      <File FileName="Mummies/Views/Researcher/BiologicalSamples.cshtml" Line="10" Column="5" />
+      <File FileName="Mummies/Models/MummyDb/FagElGamousDatabaseByLocation.cs" Line="9" Column="1" />
+      <File FileName="Mummies/Views/Researcher/FagElGamousDatabaseByLocation.cshtml" Line="254" Column="2" />
+      <File FileName="Mummies/Controllers/ResearcherController.cs" Line="35" Column="1" />
+      <File FileName="Mummies/Views/Researcher/MummyConfirmation.cshtml" Line="1" Column="1" />
+      <File FileName="Mummies/Controllers/AdminController.cs" Line="12" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mummies" expanded="True">
             <Node name="Mummies" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ResearcherController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True">
                 <Node name="MummyDb" expanded="True" />
+                <Node name="ViewModels" expanded="True">
+                  <Node name="Home" expanded="True" />
+                  <Node name="Researcher" expanded="True" />
+                </Node>
               </Node>
               <Node name="Views" expanded="True">
-                <Node name="Researcher" expanded="True">
-                  <Node name="BiologicalSamples.cshtml" selected="True" />
-                </Node>
+                <Node name="Researcher" expanded="True" />
               </Node>
             </Node>
           </Node>
