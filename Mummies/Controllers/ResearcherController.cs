@@ -45,7 +45,7 @@ namespace Mummies.Controllers
                 _context.SaveChanges();
             }
 
-            return View("Index");
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
