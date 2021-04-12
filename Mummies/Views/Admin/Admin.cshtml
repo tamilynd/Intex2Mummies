@@ -22,9 +22,10 @@
         <div class="col-4 text-center">
             <div class="w-100 align-content-center">
                 <h3><a asp-controller="Admin" asp-action="ListRolesAndUsers" class="byu-text hyperlink">Manage Users and User Permissions</a></h3>
-                <p>Manage which accounts have access to adding new burials (<i>Researcher permissions</i>) and updating, deleting and managing permissions (<i>Admin permissions</i>) and add users to authentication database.</p>
+                <p>Manage which accounts have access to adding new burials (<i>Researcher permissions</i>) and updating, deleting and managing permissions (<i>Admin permissions</i>) and add users to authentication database.<a asp-controller="Admin" asp-action="CreateRole">Add Role</a></p>
             </div>
         </div>
     </div>
+    <a asp-controller="Admin" asp-action="CreateRole">Add Role</a>
 </div>
 

@@ -63,6 +63,8 @@ namespace Mummies.Controllers
                 queryUrl = queryUrl
             };
 
+            ViewBag.Admin = true;
+
             return View(model);
         }
 

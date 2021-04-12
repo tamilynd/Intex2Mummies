@@ -121,5 +121,35 @@ namespace Mummies.Controllers
             }
             return RedirectToAction("ListRolesAndUsers", "Admin");
         }
+
+
+        //I used these to create the roles because I was too lazy to do it the right way I guess
+        [HttpGet]
+        public IActionResult CreateRole()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateRole(string roleName)
+        {
+            if (roleName != "")
+            {
+                IdentityRole identityRole = new IdentityRole
+                {
+                    Name = roleName
+                };
+
+                IdentityResult result = await roleManager.CreateAsync(identityRole);
+
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("ListRoles", "Admin");
+                }
+
+            }
+            return View();
+        }
+
     }
 }
