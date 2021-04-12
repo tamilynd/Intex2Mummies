@@ -1,640 +1,217 @@
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/appsettings.Development.json
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/appsettings.json
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.StaticWebAssets.xml
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.exe
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.deps.json
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.runtimeconfig.json
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.runtimeconfig.dev.json
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.pdb
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.Views.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.Views.pdb
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V4.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.AssemblyInfoInputs.cache
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.AssemblyInfo.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.csproj.CoreCompileInputs.cache
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.MvcApplicationPartsAssemblyInfo.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.MvcApplicationPartsAssemblyInfo.cache
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.RazorAssemblyInfo.cache
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.RazorAssemblyInfo.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/staticwebassets/Mummies.StaticWebAssets.Manifest.cache
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/staticwebassets/Mummies.StaticWebAssets.xml
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/scopedcss/bundle/Mummies.styles.css
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.TagHelpers.input.cache
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.TagHelpers.output.cache
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.RazorCoreGenerate.cache
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/AccessDenied.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ConfirmEmail.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ExternalLogin.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ForgotPassword.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Lockout.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Login.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/LoginWith2fa.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Logout.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/Email.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/Index.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/_Layout.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Register.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ResetPassword.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/_StatusMessage.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/_ViewImports.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Error.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewImports.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Admin.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Admin/EditUsersInRole.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Admin/ListRolesAndUsers.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Home/DatabaseSearch.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Home/MummyAnalytics.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/AddMummy.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/MummyConfirmation.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/UpdateMummy.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/CollapsedSearchMenu.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/MummyPopup.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.RazorTargetAssemblyInfo.cache
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.RazorTargetAssemblyInfo.cs
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.Views.pdb
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.csproj.CopyComplete
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.dll
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.pdb
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.genruntimeconfig.cache
-C:/Users/Tam/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.csprojAssemblyReference.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.csprojAssemblyReference.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.AssemblyInfoInputs.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.AssemblyInfo.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.csproj.CoreCompileInputs.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.MvcApplicationPartsAssemblyInfo.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.MvcApplicationPartsAssemblyInfo.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.RazorAssemblyInfo.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.RazorAssemblyInfo.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/staticwebassets/Mummies.StaticWebAssets.Manifest.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/staticwebassets/Mummies.StaticWebAssets.xml
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/scopedcss/bundle/Mummies.styles.css
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.TagHelpers.input.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.TagHelpers.output.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.RazorCoreGenerate.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.pdb
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/appsettings.Development.json
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/appsettings.json
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.StaticWebAssets.xml
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.deps.json
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.runtimeconfig.json
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.runtimeconfig.dev.json
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.pdb
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.Views.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Mummies.Views.pdb
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V4.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/AccessDenied.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ConfirmEmail.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ExternalLogin.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ForgotPassword.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Lockout.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Login.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/LoginWith2fa.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Logout.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/Email.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/Index.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/_Layout.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Register.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ResetPassword.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/_StatusMessage.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/_ViewImports.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Error.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewImports.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Admin.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Admin/EditUsersInRole.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Admin/ListRolesAndUsers.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Home/DatabaseSearch.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Home/MummyAnalytics.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/AddMummy.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/BiologicalSamples.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/BurialId.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/C14Data.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/MummyConfirmation.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/UpdateMummy.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/CollapsedSearchMenu.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/MummyPopup.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.RazorTargetAssemblyInfo.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.RazorTargetAssemblyInfo.cs
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.Views.pdb
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.csproj.CopyComplete
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Mummies.genruntimeconfig.cache
-/Users/masonmuir/Documents/GitHub/Intex2Mummies/Mummies/obj/Debug/netcoreapp3.1/Razor/Views/Researcher/FagElGamousDatabaseByLocation.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.StaticWebAssets.xml
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.exe
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.deps.json
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.runtimeconfig.json
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.runtimeconfig.dev.json
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.pdb
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.Views.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.Views.pdb
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\Jax\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.csprojAssemblyReference.cache
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.AssemblyInfoInputs.cache
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.AssemblyInfo.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.csproj.CoreCompileInputs.cache
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.RazorAssemblyInfo.cache
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.RazorAssemblyInfo.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\staticwebassets\Mummies.StaticWebAssets.Manifest.cache
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\staticwebassets\Mummies.StaticWebAssets.xml
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\scopedcss\bundle\Mummies.styles.css
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.TagHelpers.input.cache
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.TagHelpers.output.cache
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.RazorCoreGenerate.cache
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Admin.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUsersInRole.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListRolesAndUsers.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\DatabaseSearch.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\MummyAnalytics.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\AddMummy.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\BiologicalSamples.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\BurialId.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\C14Data.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\FagElGamousDatabaseByLocation.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\MummyConfirmation.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\UpdateMummy.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\CollapsedSearchMenu.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\MummyPopup.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.RazorTargetAssemblyInfo.cache
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.RazorTargetAssemblyInfo.cs
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.Views.pdb
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.csproj.CopyComplete
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.dll
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.pdb
-C:\Users\Jax\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.genruntimeconfig.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.StaticWebAssets.xml
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.exe
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.deps.json
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.runtimeconfig.json
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.runtimeconfig.dev.json
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.pdb
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.Views.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.Views.pdb
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.csprojAssemblyReference.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.AssemblyInfoInputs.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.AssemblyInfo.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.csproj.CoreCompileInputs.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.RazorAssemblyInfo.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.RazorAssemblyInfo.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\staticwebassets\Mummies.StaticWebAssets.Manifest.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\staticwebassets\Mummies.StaticWebAssets.xml
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\scopedcss\bundle\Mummies.styles.css
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.TagHelpers.input.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.TagHelpers.output.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.RazorCoreGenerate.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Admin.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUsersInRole.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListRolesAndUsers.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\DatabaseSearch.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\FullMummyData.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\MummyAnalytics.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\AddMummy.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\BiologicalSamples.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\BurialId.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\C14Data.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\FagElGamousDatabaseByLocation.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\MummyConfirmation.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\UpdateMummy.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\CollapsedSearchMenu.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\FullMummyData.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\MummyPopup.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.RazorTargetAssemblyInfo.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.RazorTargetAssemblyInfo.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.Views.pdb
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.csproj.CopyComplete
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.pdb
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.genruntimeconfig.cache

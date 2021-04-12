@@ -8842,19 +8842,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jax\\.nuget\\packages\\": {}
+    "C:\\Users\\IT User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jax\\Intex2Mummies\\Mummies\\Mummies.csproj",
+      "projectUniqueName": "C:\\Users\\IT User\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj",
       "projectName": "Mummies",
-      "projectPath": "C:\\Users\\Jax\\Intex2Mummies\\Mummies\\Mummies.csproj",
-      "packagesPath": "C:\\Users\\Jax\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jax\\Intex2Mummies\\Mummies\\obj\\",
+      "projectPath": "C:\\Users\\IT User\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj",
+      "packagesPath": "C:\\Users\\IT User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IT User\\Documents\\GitHub\\Intex2Mummies\\Mummies\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jax\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IT User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8923,16 +8923,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Jax\\Intex2Mummies\\Mummies\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
