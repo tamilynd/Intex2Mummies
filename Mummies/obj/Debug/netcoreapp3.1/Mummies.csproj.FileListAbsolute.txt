@@ -652,3 +652,4 @@ C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mumm
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.genruntimeconfig.cache
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateRole.cshtml.g.cs
 >>>>>>> beb59a6c933f81bdf7c949fbd4e628624b9c2bf0
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateRole.cshtml.g.cs
