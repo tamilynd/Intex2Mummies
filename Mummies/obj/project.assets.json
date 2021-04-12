@@ -8842,11 +8842,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Jax\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Tam\\.nuget\\packages\\": {}
+>>>>>>> beb59a6c933f81bdf7c949fbd4e628624b9c2bf0
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Jax\\Intex2Mummies\\Mummies\\Mummies.csproj",
       "projectName": "Mummies",
       "projectPath": "C:\\Users\\Jax\\Intex2Mummies\\Mummies\\Mummies.csproj",
@@ -8855,6 +8860,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jax\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj",
+      "projectName": "Mummies",
+      "projectPath": "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj",
+      "packagesPath": "C:\\Users\\Tam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Tam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> beb59a6c933f81bdf7c949fbd4e628624b9c2bf0
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

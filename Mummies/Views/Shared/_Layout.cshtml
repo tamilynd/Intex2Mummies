@@ -21,9 +21,13 @@
                 {
                     <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     <a asp-area="" asp-controller="Home" asp-action="DatabaseSearch">Database</a>
-                    <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics">Analytics</a>
-                    <a asp-area="" asp-controller="Researcher" asp-action="AddMummy">Add Mummy</a>
-                    <a asp-area="" asp-controller="Admin" asp-action="Admin">Admin</a>
+                    <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                    //@if(User.IsInRole("Researcher")||User.IsInRole("Admin")) { 
+                        <a asp-area="" asp-controller="Researcher" asp-action="AddMummy">Add Mummy</a>
+                    //}
+                    //@if (User.IsInRole("Admin") { 
+                        <a asp-area="" asp-controller="Admin" asp-action="Admin">Admin</a>
+                    //}
                     <a asp-area="" asp-controller="Home" asp-action="FullMummyData">FullMummyData</a>
                 }
                 else
