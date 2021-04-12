@@ -57,14 +57,18 @@ namespace Mummies.Controllers
         //}
 
         [HttpGet]
-        public IActionResult UpdateMummy(int mummyid)
+        public IActionResult UpdateMummy(string mummyid)
         {
             //Controller that returns the mummy info for the mummy id that was sent through the view
             //Only accessible by researchers
 
 
-            return View(_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid);
+
+
+            return View(_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid));
         }
+
+        //_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid
 
         [HttpPost]
         public IActionResult UpdateMummy()
