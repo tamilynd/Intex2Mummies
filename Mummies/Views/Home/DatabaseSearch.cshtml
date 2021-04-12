@@ -42,7 +42,7 @@
                                             else
                                             {
                                                 <i>
-                                                    Unknown
+                                                    -
                                                 </i>
                                             }
                                         </small></h6>
@@ -52,7 +52,7 @@
                                             @if (x.BurialDepth == 0 || x.BurialDepth is null)
                                             {
                                                 <i>
-                                                    Unknown
+                                                    -
                                                 </i>
                                             }
                                             else
@@ -71,7 +71,7 @@
                                                     Hair Color:
                                                     @if (x.HairColorCode is null || x.HairColorCode == "U")
                                                     {
-                                                        <p class="card-text small">Unknown</p>
+                                                        <p class="card-text small">-</p>
                                                     }
                                                     else
                                                     {
@@ -82,7 +82,7 @@
                                                     Wrapping:
                                                     @if (x.BurialWrappingCode is null || x.BurialWrappingCode == "U")
                                                     {
-                                                        <p class="card-text small">Unknown</p>
+                                                        <p class="card-text small">-</p>
                                                     }
                                                     else if (x.BurialWrappingCode == "W")
                                                     {
@@ -101,7 +101,7 @@
                                                     Gender:
                                                     @if (x.GenderCode is null || x.GenderCode == "U")
                                                     {
-                                                        <p class="card-text small">Unknown</p>
+                                                        <p class="card-text small">-</p>
                                                     }
                                                     else
                                                     {
@@ -114,7 +114,7 @@
                                                     Age:
                                                     @if (x.AgeCodeSingle is null || x.AgeCodeSingle == "U")
                                                     {
-                                                        <p class="card-text small">Unknown</p>
+                                                        <p class="card-text small">-</p>
                                                     }
                                                     else
                                                     {
