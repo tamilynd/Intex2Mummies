@@ -16,36 +16,52 @@
 
                 @foreach (var x in Model.Burials)
                 {
-                    <div class="col-4 p-0 m-0">
-                        <a asp-controller="Home" asp-action="Index" class="nav-link">
-                            <div class="card text-center bg-white" style="width:100%" onclick="">
-                                <div class="card-body row">
-                                    <div class="col-5">
-                                        <h6 class="card-title">
-                                            Mummy Location
-                                        </h6>
-                                        <h6 class="card-subtitle mb-2 text-muted"><small>Orientation: <i>West</i> </small></h6>
-                                        <h6 class="card-subtitle mb-2 text-muted"><small> Depth: <i>Yeehaw</i></small></h6>
-                                        <br />
-                                    </div>
-                                    <div class="col-7">
-                                        <div class="row">
-                                            <container class="col-6">
-                                                <h6 class="byu-text small">Hair Color: <p class="card-text small">Brown</p></h6>
-                                                <h6 class="byu-text small">Wrapping:<p class="card-text small">yes?</p></h6>
-                                                <h6 class="byu-text small">Gender:<p class="card-text small">Male</p></h6>
-                                            </container>
-                                            <container class="col-6">
-                                                <h6 class="byu-text small">Age: <p class="card-text small">Child</p></h6>
-                                                <h6 class="byu-text small">Bone: <p class="card-text small">600</p></h6>
-                                                <h6 class="byu-text small">Items: <p class="card-text small">3 stuff</p></h6>
-                                            </container>
-                                        </div>
+                <div class="col-4 p-0 m-0">
+                    <a asp-controller="Home" asp-action="Index" class="nav-link">
+                        <div class="card text-center bg-white" style="width:100%" onclick="">
+                            <div class="card-body row">
+                                <div class="col-5">
+                                    <h6 class="card-title">
+                                        Mummy Location
+                                    </h6>
+                                    <h6 class="card-subtitle mb-2 text-muted"><small>Orientation: <i>West</i> </small></h6>
+                                    <h6 class="card-subtitle mb-2 text-muted"><small> Depth: <i>Yeehaw</i></small></h6>
+                                    <br />
+                                </div>
+                                <div class="col-7">
+                                    <div class="row">
+                                        <container class="col-6">
+                                            <h6 class="byu-text small">Hair Color: <p class="card-text small">Brown</p></h6>
+                                            <h6 class="byu-text small">Wrapping:<p class="card-text small">yes?</p></h6>
+                                            <h6 class="byu-text small">Gender:<p class="card-text small">Male</p></h6>
+                                        </container>
+                                        <container class="col-6">
+                                            <h6 class="byu-text small">Age: <p class="card-text small">Child</p></h6>
+                                            <h6 class="byu-text small">Bone: <p class="card-text small">600</p></h6>
+                                            <h6 class="byu-text small">Items: <p class="card-text small">3 stuff</p></h6>
+                                        </container>
                                     </div>
                                 </div>
+                                <div class="container my-2">
+                                    <form>
+                                        <form asp-action="GetUpdateMummy" method="get">
+                                            <input type="hidden" name="mummyid" value="@x.BurialId" />
+                                            <button type="submit">Update</button>
+                                        </form>
+                                    
+                                        <form asp-action="GetUpdateMummy" method="post">
+                                            <input type="hidden" name="mummyid" value="@x.BurialId" />
+                                            <button type="submit">Delete</button>
+                                        </form>
+                                    </form>
+                                </div>
                             </div>
-                        </a>
-                    </div>
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                    
                 }
 
             </div>

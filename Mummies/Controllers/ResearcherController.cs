@@ -48,29 +48,39 @@ namespace Mummies.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpPost]
-        public IActionResult AddConfirmation(string x /*mummy from confirmation*/)
-        {
+        //[HttpPost]
+        //public IActionResult AddConfirmation(string x /*mummy from confirmation*/)
+        //{
 
 
-            return View("Index");
-        }
+        //    return View("Index");
+        //}
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult UpdateMummy(int mummyid)
         {
             //Controller that returns the mummy info for the mummy id that was sent through the view
             //Only accessible by researchers
-            return View(/*collection of mummies*/);
+
+
+            return View(_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid);
         }
 
         [HttpPost]
-        public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)
+        public IActionResult UpdateMummy()
         {
-            //Returns the update confirmation for the updated mummy info
-            //We will either need to make separate views, OR we need to pass in 
-            //info that shows that this is an update rather than an add. 
-            return View("MummyConfirmation");
+            //Submits update
+            //Only accessible by researchers
+            return View(/*collection of mummies*/);
         }
+
+        //[HttpPost]
+        //public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)
+        //{
+        //    //Returns the update confirmation for the updated mummy info
+        //    //We will either need to make separate views, OR we need to pass in 
+        //    //info that shows that this is an update rather than an add. 
+        //    return View("MummyConfirmation");
+        //}
     }
 }

@@ -3,60 +3,171 @@
 *@
 @{
 }
-@*This is for the updating of mummy data (will be attached to an update button found in the database view)*@
-<div><p>This is for the updating of mummy data (will be attached to an update button found in the database view)</p></div>
+@*This is an add mummy page for researchers (will have a form, and possibly photo upload)*@
+
+
+<div><p>This is an update mummy page for researchers (will have a form, and possibly photo upload)</p></div>
+
+
+@model FagElGamousDatabaseByLocation
+
+<div class="container">
+    <form method="post" asp-action="AddMummy">
+        <div class="row">
+            <div class="col">
+
+
+                <h2>Basics</h2>
+                <br />
+                <!--Square-->
+                <div>
+                    <label asp-for="Burialnors">North/South (N/S): </label>
+                    <select class="form-control" id="northsouth" name="" asp-for="Burialnors">
+                        <option value="N">North</option>
+                        <option value="S">South</option>
+                    </select>
+                </div>
 
 
 
-<div>
-    <form>
-        <!--For Primary Key Information and required info-->
-        <div>
+                <div>
+                    <label asp-for="BurialAreaNorthOrSouthLower">Lower Bound: </label>
+                    <input class="form-control" asp-for="BurialAreaNorthOrSouthLower" />
+                </div>
 
-        </div>
 
-        <!--For By Locaiton Table-->
-        <div>
 
-        </div>
+                <div>
+                    <label asp-for="BurialAreaNorthOrSouthUpper">Upper Bound: </label>
+                    <input class="form-control" asp-for="BurialAreaNorthOrSouthUpper" />
+                </div>
 
-        <!--For Carbon 14 Dating Table-->
-        <div>
 
-        </div>
 
-        <!--For Biological Samples Table-->
-        <div>
-            <div>
-                <h2>
-                    Biological Samples
-                </h2>
+                <div>
+                    <label asp-for="Burialxeorw">East/West (E/W): </label>
+                    <select class="form-control" id="" name="" asp-for="Burialxeorw">
+                        <option value="E">East</option>
+                        <option value="W">West</option>
+                    </select>
+                </div>
+
+
+
+                <div>
+                    <label asp-for="BurialAreaEastOrWestLower">Lower Bound: </label>
+                    <input class="form-control" asp-for="BurialAreaEastOrWestLower" />
+                </div>
+
+
+
+                <div>
+                    <label asp-for="BurialAreaEastOrWestUpper">Upper Bound: </label>
+                    <input class="form-control" asp-for="BurialAreaEastOrWestUpper" />
+                </div>
+
+
+
+                <!--Area-->
+                <div>
+                    <label asp-for="Square" for="">Area: </label>
+                    <select class="form-control" id="area" name="area" asp-for="Square">
+                        <option value="NE">NE</option>
+                        <option value="NW">NW</option>
+                        <option value="SE">SE</option>
+                        <option value="SW">SW</option>
+                    </select>
+                </div>
+
+
+                <!--Burial Number-->
+
+                <div>
+                    <label asp-for="BurialNumber">Burial Number: </label>
+                    <input class="form-control" asp-for="BurialNumber" />
+                </div>
+
             </div>
-             Rack 
-             Bag 
-             Low 
-             High 
-             NS 
-             Low2 
-             High2 
-             EW 
-             Area 
-             Burial 
-             Date 
-             PreviouslySampled 
-             Notes 
-             Initials 
-             Notes2 
-        </div>
 
-        <!--For Cranial Table-->
-        <div>
+            <div class="col">
 
-        </div>
 
-        <!--For By Locaiton Table-->
-        <div>
+                <h2>Metrics</h2>
+                <br />
 
+
+                <div>
+                    <label asp-for="BurialSouthToHead">South to Head: </label>
+                    <input class="form-control" asp-for="BurialSouthToHead" />
+                </div>
+
+
+
+                <div>
+                    <label asp-for="BurialSouthToFeet">South to Feet: </label>
+                    <input class="form-control" asp-for="BurialSouthToFeet" />
+                </div>
+
+
+
+                <div>
+                    <label asp-for="BurialWestToHead">West to Head: </label>
+                    <input class="form-control" asp-for="BurialWestToHead" />
+                </div>
+
+
+
+                <div>
+                    <label asp-for="BurialWestToFeet">West to Feet: </label>
+                    <input class="form-control" asp-for="BurialWestToFeet" />
+                </div>
+
+
+
+                <div>
+                    <label asp-for="Length">Length: </label>
+                    <input class="form-control" asp-for="Length" />
+                </div>
+
+
+
+                <div>
+                    <label asp-for="BurialDepth">Depth: </label>
+                    <input class="form-control" asp-for="BurialDepth" />
+                </div>
+
+
+                <h2>Observation</h2>
+                <br />
+
+
+                <div>
+                    <label asp-for="Photo">Photo: </label>
+                    <select class="form-control" id="photo" name="Photo" asp-for="Photo">
+                        <option value="Y">Yes</option>
+                        <option selected value="N">No</option>
+                    </select>
+                </div>
+
+
+
+                <div>
+                    <label asp-for="Goods">Burial Goods: </label>
+                    <select class="form-control" id="goods" name="Goods" asp-for="Goods">
+                        <option value="Y">Yes</option>
+                        <option selected value="N">No</option>
+                        <option value="U">Unknown</option>
+                    </select>
+                </div>
+
+
+                <div asp-validation-summary="All"></div>
+                <button type="submit">Submit</button>
+
+            </div>
+            <br />
         </div>
     </form>
+
 </div>
+
