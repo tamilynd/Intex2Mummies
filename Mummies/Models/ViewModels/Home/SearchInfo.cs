@@ -40,6 +40,25 @@ namespace Mummies.Models.ViewModels.Home
         public bool NoItemsFound { get; set; } = true;
         public string WrapWords { get; set; } = "";
         public string ItemWords { get; set; } = "";
+        public List<string> BoneOptions { get; set; } = new List<string>()
+        {
+            //"Femur Length",
+            //"Humerus Length",
+            //"Femur Head Measurement",
+            //"Humerus Head Measurement",
+            "Cranial Length",
+            "Cranial Breadth",
+            "Basion Bregma Height",
+            "Basion Nasion",
+            "Basion Prosthion Length",
+            "Bizygomatic Diameter",
+            "Nasion Prosthion",
+            "Nasal Breadth",
+            "Interorbital Breadth"
+        };
+        public string BoneSearch { get; set; }
+        public decimal BoneMin { get; set; } = 0;
+        public decimal BoneMax { get; set; } = 200;
 
         public string GetUrl()
         {
@@ -177,6 +196,10 @@ namespace Mummies.Models.ViewModels.Home
                     Url = Url + "-33-" + this.ItemWords + "&";
                 }
             }
+            if (this.BoneMin != 0 || this.BoneMax != 200)
+            {
+                Url = Url + "-34-" + this.BoneSearch + "&" + this.BoneMin + "&" + this.BoneMax + "&";
+            }
 
             return Url;
 
@@ -186,7 +209,6 @@ namespace Mummies.Models.ViewModels.Home
         {
             if (url.Contains("-1-"))
             {
-                int i;
                 url = url.Replace("-1-", "");
                 string value = url.Substring(0, url.IndexOf("&"));
                 this.NorthMin = int.Parse(value);
@@ -194,7 +216,6 @@ namespace Mummies.Models.ViewModels.Home
             }
             if (url.Contains("-2-"))
             {
-                int i;
                 url = url.Replace("-2-", "");
                 string value = url.Substring(0, url.IndexOf("&"));
                 this.NorthMax = int.Parse(value);
@@ -238,7 +259,6 @@ namespace Mummies.Models.ViewModels.Home
             }
             if (url.Contains("-9-"))
             {
-                int i;
                 url = url.Replace("-9-", "");
                 string value = url.Substring(0, url.IndexOf("&"));
                 this.DepthMin = int.Parse(value);
@@ -246,7 +266,6 @@ namespace Mummies.Models.ViewModels.Home
             }
             if (url.Contains("-10-"))
             {
-                int i;
                 url = url.Replace("-10-", "");
                 string value = url.Substring(0, url.IndexOf("&"));
                 this.DepthMax = int.Parse(value);
@@ -354,7 +373,6 @@ namespace Mummies.Models.ViewModels.Home
             }
             if (url.Contains("-32-"))
             {
-                int i;
                 url = url.Replace("-32-", "");
                 string value = url.Substring(0, url.IndexOf("&"));
                 this.WrapWords = value;
@@ -362,11 +380,22 @@ namespace Mummies.Models.ViewModels.Home
             }
             if (url.Contains("-33-"))
             {
-                int i;
                 url = url.Replace("-33-", "");
                 string value = url.Substring(0, url.IndexOf("&"));
                 this.ItemWords = value;
                 url = url.Replace(value + "&", "");
+            }
+            if (url.Contains("-34-"))
+            {
+                url = url.Replace("-34-", "");
+                string value = url.Substring(0, url.IndexOf("&"));
+                this.BoneSearch = value;
+                url = url.Replace(value + "&", "");
+                string min = url.Substring(0, url.IndexOf("&"));
+                this.BoneMin = int.Parse(min);
+                url = url.Replace(min + "&", "");
+                string max = url.Substring(0, url.IndexOf("&"));
+                this.BoneMin = int.Parse(max);
             }
         }
 
@@ -573,6 +602,88 @@ namespace Mummies.Models.ViewModels.Home
                 {
                     List<string> items =cranial.Where(b => b.BurialArtifactDescription.Contains(this.ItemWords)).Select(b => b.BurialId).ToList();
                     query = query.Where(b => items.Contains(b.BurialId));
+                }
+            }
+
+            //Bone Length
+            if(this.BoneSearch != "" && this.BoneSearch != null)
+            {
+                //if(this.BoneSearch == "Femur Length") {
+                //    List<string> burials = new List<string>();
+                //    burials.AddRange(cranial.Where(b => b.FemurLength <= this.BoneMax && b.FemurLength >= this.BoneMin).Select(b => b.BurialId).ToList());
+                //    query = query.Where(b => burials.Contains(b.BurialId));
+                //}
+                //else if (this.BoneSearch == "Humerus Length")
+                //{
+                //    List<string> burials = new List<string>();
+                //    burials.AddRange(cranial.Where(b => b.HumerusLength <= this.BoneMax && b.HumerusLength >= this.BoneMin).Select(b => b.BurialId).ToList());
+                //    query = query.Where(b => burials.Contains(b.BurialId));
+                //}
+                //else if (this.BoneSearch == "Humerus Head Measurement")
+                //{
+                //    List<string> burials = new List<string>();
+                //    burials.AddRange(cranial.Where(b => b.HumerusHead <= this.BoneMax && b.HumerusHead >= this.BoneMin).Select(b => b.BurialId).ToList());
+                //    query = query.Where(b => burials.Contains(b.BurialId));
+                //}
+                //else if (this.BoneSearch == "Femur Head Measurement")
+                //{
+                //    List<string> burials = new List<string>();
+                //    burials.AddRange(cranial.Where(b => b.FemurHead <= this.BoneMax && b.FemurHead >= this.BoneMin).Select(b => b.BurialId).ToList());
+                //    query = query.Where(b => burials.Contains(b.BurialId));
+                //}
+                if (this.BoneSearch == "Cranial Length")
+                {
+                    List<string> burials = new List<string>();
+                    burials.AddRange(cranial.Where(b => (decimal)b.MaximumCranialLength <= this.BoneMax && (decimal)b.MaximumCranialLength >= this.BoneMin).Select(b => b.BurialId).ToList());
+                    query = query.Where(b => burials.Contains(b.BurialId));
+                }
+                else if (this.BoneSearch == "Cranial Breadth")
+                {
+                    List<string> burials = new List<string>();
+                    burials.AddRange(cranial.Where(b => (decimal)b.MaximumCranialBreadth <= this.BoneMax && (decimal)b.MaximumCranialBreadth >= this.BoneMin).Select(b => b.BurialId).ToList());
+                    query = query.Where(b => burials.Contains(b.BurialId));
+                }
+                else if (this.BoneSearch == "Basion Bregma Height")
+                {
+                    List<string> burials = new List<string>();
+                    burials.AddRange(cranial.Where(b => (decimal)b.BasionBregmaHeight <= this.BoneMax && (decimal)b.BasionBregmaHeight >= this.BoneMin).Select(b => b.BurialId).ToList());
+                    query = query.Where(b => burials.Contains(b.BurialId));
+                }
+                else if (this.BoneSearch == "Basion Nasion")
+                {
+                    List<string> burials = new List<string>();
+                    burials.AddRange(cranial.Where(b => (decimal)b.BasionNasion <= this.BoneMax && (decimal)b.BasionNasion >= this.BoneMin).Select(b => b.BurialId).ToList());
+                    query = query.Where(b => burials.Contains(b.BurialId));
+                }
+                else if (this.BoneSearch == "Basion Prosthion Length")
+                {
+                    List<string> burials = new List<string>();
+                    burials.AddRange(cranial.Where(b => (decimal)b.BasionProsthionLength <= this.BoneMax && (decimal)b.BasionProsthionLength >= this.BoneMin).Select(b => b.BurialId).ToList());
+                    query = query.Where(b => burials.Contains(b.BurialId));
+                }
+                else if (this.BoneSearch == "Bizygomatic Diameter")
+                {
+                    List<string> burials = new List<string>();
+                    burials.AddRange(cranial.Where(b => (decimal)b.BizygomaticDiameter <= this.BoneMax && (decimal)b.BizygomaticDiameter >= this.BoneMin).Select(b => b.BurialId).ToList());
+                    query = query.Where(b => burials.Contains(b.BurialId));
+                }
+                else if (this.BoneSearch == "Nasion Prosthion")
+                {
+                    List<string> burials = new List<string>();
+                    burials.AddRange(cranial.Where(b => (decimal)b.NasionProsthion <= this.BoneMax && (decimal)b.NasionProsthion >= this.BoneMin).Select(b => b.BurialId).ToList());
+                    query = query.Where(b => burials.Contains(b.BurialId));
+                }
+                else if (this.BoneSearch == "Nasal Breadth")
+                {
+                    List<string> burials = new List<string>();
+                    burials.AddRange(cranial.Where(b => (decimal)b.MaximumNasalBreadth <= this.BoneMax && (decimal)b.MaximumNasalBreadth >= this.BoneMin).Select(b => b.BurialId).ToList());
+                    query = query.Where(b => burials.Contains(b.BurialId));
+                }
+                else if (this.BoneSearch == "Interorbital Breadth")
+                {
+                    List<string> burials = new List<string>();
+                    burials.AddRange(cranial.Where(b => (decimal)b.InterorbitalBreadth <= this.BoneMax && (decimal)b.InterorbitalBreadth >= this.BoneMin).Select(b => b.BurialId).ToList());
+                    query = query.Where(b => burials.Contains(b.BurialId));
                 }
             }
 

@@ -216,6 +216,28 @@
         </div>
         <label asp-for="@Model.ItemWords">Item Search Terms (separated by commas)</label>
         <input asp-for="@Model.ItemWords" type="text" value="@Model.ItemWords" />
+        <hr />
+        <h6 class="byu-text">Bone Length</h6>
+        <div class="row text-center">
+            <div class="col-12">
+                <select asp-for="@Model.BoneSearch">
+                    @foreach (string search in Model.BoneOptions)
+                    {
+                        <option value="@search">@search</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <br class="small"/>
+        <div class="col-12">
+            <label asp-for="BoneMin">Mininmum</label>
+            <input type="number" asp-for="BoneMin" />
+        </div>
+        <div class="col-12">
+            <label asp-for="BoneMax">Maximum</label>
+            <input type="number" asp-for="BoneMax" />
+        </div>
+
         <br />
         <br />
         <input type="submit" class="btn byu-color text-white" value="Search" />
