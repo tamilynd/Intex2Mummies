@@ -38,8 +38,8 @@ namespace Mummies.Models.MummyDb
         public string MedialIpRamus { get; set; }
         public string DorsalPitting { get; set; }
         public string ForemanMagnum { get; set; }
-        public string FemurHead { get; set; }
-        public string HumerusHead { get; set; }
+        public decimal? FemurHead { get; set; }
+        public decimal? HumerusHead { get; set; }
         public string Osteophytosis { get; set; }
         public string PubicSymphysis { get; set; }
         public string BoneLength { get; set; }
@@ -47,8 +47,8 @@ namespace Mummies.Models.MummyDb
         public string IliacCrest { get; set; }
         public string FemurDiameter { get; set; }
         public string Humerus { get; set; }
-        public string FemurLength { get; set; }
-        public string HumerusLength { get; set; }
+        public decimal? FemurLength { get; set; }
+        public decimal? HumerusLength { get; set; }
         public string TibiaLength { get; set; }
         public string Robust { get; set; }
         public string SupraorbitalRidges { get; set; }
@@ -58,15 +58,15 @@ namespace Mummies.Models.MummyDb
         public string NuchalCrest { get; set; }
         public string ZygomaticCrest { get; set; }
         public string CranialSuture { get; set; }
-        public string MaximumCranialLength { get; set; }
-        public string MaximumCranialBreadth { get; set; }
-        public string BasionBregmaHeight { get; set; }
-        public string BasionNasion { get; set; }
-        public string BasionProsthionLength { get; set; }
-        public string BizygomaticDiameter { get; set; }
-        public string NasionProsthion { get; set; }
-        public string MaximumNasalBreadth { get; set; }
-        public string InterorbitalBreadth { get; set; }
+        public decimal? MaximumCranialLength { get; set; }
+        public decimal? MaximumCranialBreadth { get; set; }
+        public decimal? BasionBregmaHeight { get; set; }
+        public decimal? BasionNasion { get; set; }
+        public decimal? BasionProsthionLength { get; set; }
+        public decimal? BizygomaticDiameter { get; set; }
+        public decimal? NasionProsthion { get; set; }
+        public decimal? MaximumNasalBreadth { get; set; }
+        public decimal? InterorbitalBreadth { get; set; }
         public string ArtifactsDescription { get; set; }
         public string HairColor { get; set; }
         public string PreservationIndex { get; set; }

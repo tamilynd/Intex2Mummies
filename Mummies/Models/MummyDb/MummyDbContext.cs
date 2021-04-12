@@ -81,19 +81,19 @@ namespace Mummies.Models.MummyDb
 
                 entity.Property(e => e.BasionBregmaHeight)
                     .HasColumnName("basion_bregma_height")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.BasionNasion)
                     .HasColumnName("basion_nasion")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.BasionProsthionLength)
                     .HasColumnName("basion_prosthion_length")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.BizygomaticDiameter)
                     .HasColumnName("bizygomatic_diameter")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.BoneLength)
                     .HasColumnName("bone_length")
@@ -167,11 +167,11 @@ namespace Mummies.Models.MummyDb
 
                 entity.Property(e => e.FemurHead)
                     .HasColumnName("femur_head")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.FemurLength)
                     .HasColumnName("femur_length")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.ForemanMagnum)
                     .HasColumnName("foreman_magnum")
@@ -213,11 +213,11 @@ namespace Mummies.Models.MummyDb
 
                 entity.Property(e => e.HumerusHead)
                     .HasColumnName("humerus_head")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.HumerusLength)
                     .HasColumnName("humerus_length")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.IliacCrest)
                     .HasColumnName("iliac_crest")
@@ -225,7 +225,7 @@ namespace Mummies.Models.MummyDb
 
                 entity.Property(e => e.InterorbitalBreadth)
                     .HasColumnName("interorbital_breadth")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.LengthOfRemains)
                     .HasColumnName("length_of_remains")
@@ -239,15 +239,15 @@ namespace Mummies.Models.MummyDb
 
                 entity.Property(e => e.MaximumCranialBreadth)
                     .HasColumnName("maximum_cranial_breadth")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.MaximumCranialLength)
                     .HasColumnName("maximum_cranial_length")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.MaximumNasalBreadth)
                     .HasColumnName("maximum_nasal_breadth")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.MedialClavicle)
                     .HasColumnName("medial_clavicle")
@@ -263,7 +263,7 @@ namespace Mummies.Models.MummyDb
 
                 entity.Property(e => e.NasionProsthion)
                     .HasColumnName("nasion_prosthion")
-                    .HasMaxLength(50);
+                    .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.NuchalCrest)
                     .HasColumnName("nuchal_crest")
