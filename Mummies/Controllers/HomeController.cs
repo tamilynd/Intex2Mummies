@@ -107,6 +107,15 @@ namespace Mummies.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult FullMummyData(String BurialId)
+        {
+            IEnumerable<FagElGamousDatabaseByLocation> fagElGamousDatabaseByLocations;
+            fagElGamousDatabaseByLocations = _context.FagElGamousDatabaseByLocation.Where(x => x.BurialId == BurialId);
+
+            return View("FullMummyData", fagElGamousDatabaseByLocations.First());
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
