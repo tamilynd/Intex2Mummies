@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Mummies</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <!--BYU LOOKING STYLES-->
@@ -22,22 +22,30 @@
                     <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     <a asp-area="" asp-controller="Home" asp-action="DatabaseSearch">Database</a>
                     <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
-                    //@if(User.IsInRole("Researcher")||User.IsInRole("Admin")) { 
+                    @if (User.IsInRole("Researcher") || User.IsInRole("Admin"))
+                    {
                         <a asp-area="" asp-controller="Researcher" asp-action="AddMummy">Add Mummy</a>
-                    //}
-                    //@if (User.IsInRole("Admin") { 
+                    }
+                    @if (User.IsInRole("Admin"))
+                    {
                         <a asp-area="" asp-controller="Admin" asp-action="Admin">Admin</a>
-                    //}
-                    
+                    }
+
                 }
                 else
                 {
                     <a asp-area="" asp-controller="Home" asp-action="Index" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">Home</a>
                     <a asp-area="" asp-controller="Home" asp-action="DatabaseSearch" class="@(ViewContext.RouteData.Values["Action"].ToString() == "DatabaseSearch" ? "active" : "")">Database</a>
-                    <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics" class="@(ViewContext.RouteData.Values["Action"].ToString() == "MummyAnalytics" ? "active" : "")">Analytics</a>
-                    <a asp-area="" asp-controller="Researcher" asp-action="AddMummy" class="@(ViewContext.RouteData.Values["Action"].ToString() == "AddMummy" ? "active" : "")">Add Mummy</a>
-                    <a asp-area="" asp-controller="Admin" asp-action="Admin" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Admin" ? "active" : "")">Admin</a>
-                    
+                    <a asp-area="" asp-controller="Home" asp-action="Contact" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? "active" : "")">Contact</a>
+                    @if (User.IsInRole("Researcher") || User.IsInRole("Admin"))
+                    {
+                        <a asp-area="" asp-controller="Researcher" asp-action="AddMummy" class="@(ViewContext.RouteData.Values["Action"].ToString() == "AddMummy" ? "active" : "")">Add Mummy</a>
+                    }
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-area="" asp-controller="Admin" asp-action="Admin" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Admin" ? "active" : "")">Admin</a>
+                    }
+
                 }
             </byu-menu>
         </byu-header>

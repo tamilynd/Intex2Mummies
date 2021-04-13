@@ -5,6 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Mummies.Models.MummyDb;
+using System.Text.Encodings.Web;
+using System.Reflection;
+using System.Web;
 
 namespace Mummies.Controllers
 {
@@ -13,11 +16,19 @@ namespace Mummies.Controllers
     {
         //add the _context (allows you to edit/delete)
         private MummyDbContext _context { get; set; }
+        private HtmlEncoder _htmlEncoder { get; set; }
+        private JavaScriptEncoder _javaScriptEncoder { get; set; }
+        private UrlEncoder _urlEncoder { get; set; }
 
         //constructor
-        public ResearcherController(MummyDbContext con)
+        public ResearcherController(MummyDbContext con, HtmlEncoder htmlEncoder, 
+                             JavaScriptEncoder javascriptEncoder,
+                             UrlEncoder urlEncoder)
         {
             _context = con;
+            _htmlEncoder = htmlEncoder;
+           _javaScriptEncoder = javascriptEncoder;
+           _urlEncoder = urlEncoder;
         }
 
         [HttpGet]
@@ -28,6 +39,7 @@ namespace Mummies.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult AddMummy(FagElGamousDatabaseByLocation loc /*mummy from form*/)
         {
             //This will submit the confirmed mummy to the database and return the researcher 
@@ -60,19 +72,48 @@ namespace Mummies.Controllers
         {
             IEnumerable<FagElGamousDatabaseByLocation> fagElGamousDatabaseByLocations;
             fagElGamousDatabaseByLocations = _context.FagElGamousDatabaseByLocation.Where(x => x.BurialId == BurialId);
-            return View("EditFullMummyData", fagElGamousDatabaseByLocations.FirstOrDefault());
+            FagElGamousDatabaseByLocation burial = fagElGamousDatabaseByLocations.FirstOrDefault();
+            //foreach (PropertyInfo prop in burial.GetType().GetProperties())
+            //{
+            //    var type = Nullable.GetUnderlyingType(prop.PropertyType) ?? prop.PropertyType;
+            //    try
+            //    {
+            //        prop.SetValue(burial, HttpUtility.HtmlEncode(prop.GetValue(burial, null)), null);
+            //    }
+            //    catch
+            //    {
+            //        Console.WriteLine(prop.GetValue(burial));
+            //    }
+                
+            //}
+            return View("EditFullMummyData", burial);
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult MummyUpdate(FagElGamousDatabaseByLocation Mummy)
         {
-           
+            //foreach (PropertyInfo prop in Mummy.GetType().GetProperties())
+            //{
+            //    var type = Nullable.GetUnderlyingType(prop.PropertyType) ?? prop.PropertyType;
+            //    try 
+            //    { 
+            //    prop.SetValue(Mummy, HttpUtility.HtmlEncode(prop.GetValue(Mummy, null)),null);
+            //    }
+            //    catch
+            //    {
+            //        Console.WriteLine(prop.GetValue(Mummy));
+            //    }
+            //}
+
             _context.FagElGamousDatabaseByLocation.Update(Mummy);
             _context.SaveChanges();
 
 
             return RedirectToAction("DatabaseSearch", "Home");
         }
+
+
         public IActionResult DeleteMummy(string mummyid)
         {
             FagElGamousDatabaseByLocation mummy = _context.FagElGamousDatabaseByLocation.Where(b => b.BurialId == mummyid).FirstOrDefault();
@@ -81,14 +122,14 @@ namespace Mummies.Controllers
             return RedirectToAction("DatabaseSearch", "Home");
         }
 
-        [HttpPost]
-        public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)
-        {
-            //Submits update
-            //Only accessible by researchers
+        //[HttpPost]
+        //public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)
+        //{
+        //    //Submits update
+        //    //Only accessible by researchers
 
-            return View(/*collection of mummies*/);
-        }
+        //    return View(/*collection of mummies*/);
+        //}
 
         //[HttpPost]
         //public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)

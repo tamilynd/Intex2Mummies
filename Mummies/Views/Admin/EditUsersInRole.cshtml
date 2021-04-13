@@ -3,9 +3,11 @@
 @{ 
     var roleId = ViewBag.roleId;
     var roleName = ViewBag.roleName;
+    ViewData["Title"] = "Edit User Roles";
 }
 
 <form method="post">
+    @Html.AntiForgeryToken()
     <div class="card">
         <div class="card-header">
             <h2>Add or remove users from @roleName role</h2>

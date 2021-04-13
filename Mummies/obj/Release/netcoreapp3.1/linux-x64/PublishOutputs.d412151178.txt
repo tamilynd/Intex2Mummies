@@ -43,6 +43,11 @@ C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\pu
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\Mummies.deps.json
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\Mummies.runtimeconfig.json
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\Mummies.pdb
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\AngleSharp.dll
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\AngleSharp.Css.dll
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\AntiXssLibrary.dll
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\HtmlSanitizationLibrary.dll
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\HtmlSanitizer.dll
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

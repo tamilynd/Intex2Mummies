@@ -95,6 +95,7 @@ namespace Mummies.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditUsersInRole(List<UserRoleViewModel> model, string id)
         {
             //Checks for any changes to permissions, and adds/updates those changes in the user database
@@ -131,6 +132,7 @@ namespace Mummies.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateRole(string roleName)
         {
             if (roleName != "")

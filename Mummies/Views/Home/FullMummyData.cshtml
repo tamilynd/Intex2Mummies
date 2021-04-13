@@ -2,417 +2,423 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    ViewData["Title"] = "Burial Page";
 }
 @model Mummies.Models.MummyDb.FagElGamousDatabaseByLocation
-<form asp-action="MummyUpdate" method="Post">
-    <div class="content-holder-main"> 
+<div class="row mt-5">
+    <div class="col-4"><h3>Burial Summary</h3></div>
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="col-8 float-left">
+            <form asp-action="UpdateMummyData" asp-controller="Researcher" method="post">
+                <input name="BurialId" id="BurialId" value="@Model.BurialId" hidden />
+                <input type="submit" class="btn byu-color text-white small" asp-action="UpdateMummyData" asp-controller="Researcher" value="Edit" />
+            </form>
+        </div>
+    }
+</div>
+    <hr />
+    <form asp-action="MummyUpdate" method="Post">
+        <div class="content-holder-main">
 
-        <table cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_FormView1" style="border-collapse:collapse;">
-            <tbody>
-                <tr>
-                    <td colspan="2">
-                        <div class="content-holder-main">
-                            @if (User.IsInRole("Admin"))
-                            {
-                                <div>
-                                    <form asp-action="UpdateMummyData" asp-controller="Researcher" method="post">
-                                        <input name="BurialId" id="BurialId" value="@Model.BurialId" hidden />
-                                        <input type="submit" class="btn byu-color text-white small" asp-action="UpdateMummyData" asp-controller="Researcher" value="Edit" />
-                                    </form>
-                                </div>
-                            }
+            <table cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_FormView1" style="border-collapse:collapse;">
+                <tbody>
+                    <tr>
+                        <td colspan="2">
+                            <div class="content-holder-main">
 
 
-                            <table class="style1">
-                                <tbody>
-                                    <tr>
-                                        <th colspan="3">
-                                            <h5>Basic Mummy Info:</h5>
-                                        </th>
-                                    </tr>
-                                    <tr>
 
-                                        <td class="style8">
-                                            <strong>Burial ID: </strong>
-                                        </td>
-                                        <td class="style7">
-                                            <label asp-for="BurialId"> @Model.BurialId </label>
-                                        </td>
-                                        <td class="style9">
-                                            <b>Orientation:</b>
-                                        </td>
-                                        <td>
-                                            <label asp-for="BurialDirection">
-                                                @if (Model.BurialDirection == "W")
+                                <table class="style1">
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="3">
+                                                <h5>Basic Mummy Info:</h5>
+                                            </th>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="style8">
+                                                <strong>Burial ID: </strong>
+                                            </td>
+                                            <td class="style7">
+                                                <label asp-for="BurialId"> @Model.BurialId </label>
+                                            </td>
+                                            <td class="style9">
+                                                <b>Orientation:</b>
+                                            </td>
+                                            <td>
+                                                <label asp-for="BurialDirection">
+                                                    @if (Model.BurialDirection == "W")
+                                                    {
+                                                        <a>
+                                                            West
+                                                        </a>
+                                                    }
+                                                    else if (Model.BurialDirection == "E")
+                                                    {
+                                                        <a>
+                                                            East
+                                                        </a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a>
+                                                            -
+                                                        </a>
+                                                    }
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <b>Depth:</b>
+                                            </td>
+                                            <td>
+                                                <label asp-for="BurialDepth">
+                                                    @if (Model.BurialDepth == 0 || Model.BurialDepth is null)
+                                                    {
+                                                        <a>
+                                                            -
+                                                        </a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a>
+                                                            @Model.BurialDepth
+                                                        </a>
+                                                    }
+                                                </label>
+                                            </td>
+                                            <td class="style9">
+                                                <b>Wrapping:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">
+                                                    @if (Model.BurialWrappingCode is null || Model.BurialWrappingCode == "U")
+                                                    {
+                                                        <a>-</a>
+                                                    }
+                                                    else if (Model.BurialWrappingCode == "W")
+                                                    {
+                                                        <a>Full Wrapping</a>
+                                                    }
+                                                    else if (Model.BurialWrappingCode == "H")
+                                                    {
+                                                        <a>Partial Wrapping</a>
+                                                    }
+                                                    else if (Model.BurialWrappingCode == "B")
+                                                    {
+                                                        <a>Very Little/No Wrapping</a>
+                                                    }
+                                                </span>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="style9">
+                                                <b>Items:</b>
+                                            </td>
+                                            <td>
+                                                @if (Model.Goods != null)
                                                 {
-                                                    <a>
-                                                        West
-                                                    </a>
-                                                }
-                                                else if (Model.BurialDirection == "E")
-                                                {
-                                                    <a>
-                                                        East
-                                                    </a>
+                                                    <a>@Model.Goods</a>
                                                 }
                                                 else
                                                 {
-                                                    <a>
-                                                        -
-                                                    </a>
+                                                    <a>No Artifacts</a>
                                                 }
-                                            </label>
-                                        </td>
-                                        <td>
-                                            <b>Depth:</b>
-                                        </td>
-                                        <td>
-                                            <label asp-for="BurialDepth">
-                                                @if (Model.BurialDepth == 0 || Model.BurialDepth is null)
-                                                {
-                                                    <a>
-                                                        -
-                                                    </a>
-                                                }
-                                                else
-                                                {
-                                                    <a>
-                                                        @Model.BurialDepth
-                                                    </a>
-                                                }
-                                            </label>
-                                        </td>
-                                        <td class="style9">
-                                            <b>Wrapping:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">
-                                                @if (Model.BurialWrappingCode is null || Model.BurialWrappingCode == "U")
+                                            </td>
+
+                                            <td>
+                                                <b>Hair Color:</b>
+                                            </td>
+                                            <td>
+                                                @if (Model.HairColorCode is null || Model.HairColorCode == "U")
                                                 {
                                                     <a>-</a>
                                                 }
-                                                else if (Model.BurialWrappingCode == "W")
+                                                else
                                                 {
-                                                    <a>Full Wrapping</a>
+                                                    <a>@Model.HairColor</a>
                                                 }
-                                                else if (Model.BurialWrappingCode == "H")
+                                            </td>
+
+                                            <td class="style9">
+                                                <b>Age:</b>
+                                            </td>
+                                            <td>
+                                                @if (Model.AgeCodeSingle is null || Model.AgeCodeSingle == "U")
                                                 {
-                                                    <a>Partial Wrapping</a>
+                                                    <a>-</a>
                                                 }
-                                                else if (Model.BurialWrappingCode == "B")
+                                                else
                                                 {
-                                                    <a>Very Little/No Wrapping</a>
+                                                    <a>@Model.Age</a>
                                                 }
-                                            </span>
+                                            </td>
+                                            <td class="style8">
+                                                <b>Bone:</b>
+                                            </td>
+                                            <td class="style7">
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">Bone Stuff</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><br /></td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                <h5>Field Book Information:</h5>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td class="style8">
+                                                <b>Field Book:</b>
+                                            </td>
+                                            <td class="style7">
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.FieldBook</span>
+                                            </td>
+                                            <td class="style9">
+                                                <b>Field Book Page #:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">@Model.FieldBookPageNumber</span>
+                                            </td>
+                                            <td>
+                                                <b>Initials of Data Entry Expert:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.InitialsOfDataEntryExpert</span>
+                                            </td>
+                                            <td>
+                                                <b>Initials of Data Entry Checker:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.InitialsOfDataEntryChecker</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><br /></td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                <h5>Catalague Information:</h5>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td class="style8">
+                                                <b>Rack and Shelf:</b>
+                                            </td>
+                                            <td class="style7">
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.RackAndShelf</span>
+                                            </td>
+                                            <td class="style9">
+                                                <b>Tomb:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">@Model.Tomb</span>
+                                            </td>
+                                            <td>
+                                                <b>Square:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.Square</span>
+                                            </td>
+
+                                            <td valign="top">
+                                                <b>Locale:</b>
+                                            </td>
+                                            <td valign="top">
+                                                <textarea name="ctl00$ContentPlaceHolder1$FormView1$LocaleLabel" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_LocaleLabel">@Model.BurialAreaNorthOrSouthLower / @Model.BurialAreaNorthOrSouthUpper @Model.BurialAreaEastOrWestLower / @Model.BurialAreaEastOrWestUpper</textarea>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="style8">
+                                                <b>Year Excavated:</b>
+                                            </td>
+                                            <td class="style7">
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.YearExcav</span>
+                                            </td>
+                                            <td class="style9">
+                                                <b>BYU Sample:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">@Model.ByuSample</span>
+                                            </td>
+                                            <td colspan="3">
+                                                <table colspan="3">
+
+                                                    <tr colspan="3">
+                                                        <td class="style9" colspan="3"><strong>Burial West To Head:</strong></td>
+                                                        <td colspan="3">@Model.BurialWestToHead</td>
+                                                    </tr>
+                                                    <tr colspan="3">
+                                                        <td class="style9" colspan="3"><strong>Burial West To Feet:</strong></td>
+                                                        <td colspan="3">@Model.BurialWestToFeet</td>
+                                                    </tr>
+                                                    <tr colspan="3">
+                                                        <td class="style9" colspan="3"><strong>Burial South To Head:</strong></td>
+                                                        <td colspan="3">@Model.BurialSouthToHead</td>
+                                                    </tr>
+                                                    <tr colspan="3">
+                                                        <td class="style9" colspan="3"><strong>Burial South To Feet:</strong></td>
+                                                        <td colspan="3">@Model.BurialSouthToFeet</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><br /></td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                <h5>Physical Attributes:</h5>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="style8">
+                                                <b>Rack and Shelf:</b>
+                                            </td>
+                                            <td class="style7">
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.RackAndShelf</span>
+                                            </td>
+                                            <td>
+                                                <b>Skull Date:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.YearOnSkull + @Model.MonthOnSkull + @Model.DateOnSkull</span>
+                                            </td>
+                                            <td class="style9">
+                                                <b>Skull at Magazine:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">@Model.SkullAtMagazine</span>
+                                            </td>
+                                            <td>
+                                                <b>Postcrania At Magazine:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.PostcraniaAtMagazine</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="style8">
+                                                <b>Cribria Orbitala:</b>
+                                            </td>
+                                            <td class="style7">
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.CribraOrbitala</span>
+                                            </td>
+                                            <td class="style9">
+                                                <b>Linear Hypoplasia Enamel:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">@Model.LinearHypoplasiaEnamel</span>
+                                            </td>
+                                            <td>
+                                                <b>Temporal Mandibular Joine Osteoarthritis (TMJOA):</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.TemporalMandibularJointOsteoarthritisTmjOa</span>
+                                            </td>
+
+                                            <td>
+                                                <b>Postcrania Trauma:</b>
+                                            </td>
+                                            <td>
+                                                <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.PostcraniaTrauma</span>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td><br /></td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                <h5>Osteology/Archeological Notes:</h5>
+                                            </th>
+                                        </tr>
+
+                                    <td><br /></td>
+                                    <tr>
+                                        <td class="style8" valign="top">
+                                            <b>Notes 1</b>:
+                                        </td>
+                                        <td class="style7" valign="top">
+                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column73</textarea>
+                                        </td>
+                                        <td class="style8" valign="top">
+                                            <b>Notes 2</b>:
+                                        </td>
+                                        <td class="style7" valign="top">
+                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column74</textarea>
+                                        </td>
+                                        <td class="style8" valign="top">
+                                            <b>Notes 3</b>:
+                                        </td>
+                                        <td class="style7" valign="top">
+                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column75</textarea>
+                                        </td>
+                                        <td class="style8" valign="top">
+                                            <b>Notes 4</b>:
+                                        </td>
+                                        <td class="style7" valign="top">
+                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column76</textarea>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="style8" valign="top">
+                                            <b>Notes 5</b>:
+                                        </td>
+                                        <td class="style7" valign="top">
+                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column77</textarea>
+                                        </td>
+                                        <td class="style8" valign="top">
+                                            <b>Notes 6</b>:
+                                        </td>
+                                        <td class="style7" valign="top">
+                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column78</textarea>
+                                        </td>
+                                        <td class="style8" valign="top">
+                                            <b>Notes 7</b>:
+                                        </td>
+                                        <td class="style7" valign="top">
+                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column79</textarea>
+                                        </td>
+                                        <td class="style8" valign="top">
+                                            <b>Notes 8</b>:
+                                        </td>
+                                        <td class="style7" valign="top">
+                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column80</textarea>
                                         </td>
 
                                     </tr>
                                     <tr>
-                                        <td class="style9">
-                                            <b>Items:</b>
+                                        <td class="style8" valign="top">
+                                            <b>Notes 9</b>:
                                         </td>
-                                        <td>
-                                            @if (Model.Goods != null)
-                                            {
-                                                <a>@Model.Goods</a>
-                                            }
-                                            else
-                                            {
-                                                <a>No Artifacts</a>
-                                            }
+                                        <td class="style7" valign="top">
+                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column81</textarea>
+                                        <td class="style8" valign="top">
+                                            <b>Notes 10</b>:
                                         </td>
-
-                                        <td>
-                                            <b>Hair Color:</b>
-                                        </td>
-                                        <td>
-                                            @if (Model.HairColorCode is null || Model.HairColorCode == "U")
-                                            {
-                                                <a>-</a>
-                                            }
-                                            else
-                                            {
-                                                <a>@Model.HairColor</a>
-                                            }
-                                        </td>
-
-                                        <td class="style9">
-                                            <b>Age:</b>
-                                        </td>
-                                        <td>
-                                            @if (Model.AgeCodeSingle is null || Model.AgeCodeSingle == "U")
-                                            {
-                                                <a>-</a>
-                                            }
-                                            else
-                                            {
-                                                <a>@Model.Age</a>
-                                            }
-                                        </td>
-                                        <td class="style8">
-                                            <b>Bone:</b>
-                                        </td>
-                                        <td class="style7">
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">Bone Stuff</span>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td><br /></td>
-                                    </tr>
-                                    <tr>
-                                        <th colspan="3">
-                                            <h5>Field Book Information:</h5>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <td class="style8">
-                                            <b>Field Book:</b>
-                                        </td>
-                                        <td class="style7">
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.FieldBook</span>
-                                        </td>
-                                        <td class="style9">
-                                            <b>Field Book Page #:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">@Model.FieldBookPageNumber</span>
-                                        </td>
-                                        <td>
-                                            <b>Initials of Data Entry Expert:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.InitialsOfDataEntryExpert</span>
-                                        </td>
-                                        <td>
-                                            <b>Initials of Data Entry Checker:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.InitialsOfDataEntryChecker</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><br /></td>
-                                    </tr>
-                                    <tr>
-                                        <th colspan="3">
-                                            <h5>Catalague Information:</h5>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <td class="style8">
-                                            <b>Rack and Shelf:</b>
-                                        </td>
-                                        <td class="style7">
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.RackAndShelf</span>
-                                        </td>
-                                        <td class="style9">
-                                            <b>Tomb:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">@Model.Tomb</span>
-                                        </td>
-                                        <td>
-                                            <b>Square:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.Square</span>
-                                        </td>
-
-                                        <td valign="top">
-                                            <b>Locale:</b>
-                                        </td>
-                                        <td valign="top">
-                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$LocaleLabel" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_LocaleLabel">@Model.BurialAreaNorthOrSouthLower / @Model.BurialAreaNorthOrSouthUpper @Model.BurialAreaEastOrWestLower / @Model.BurialAreaEastOrWestUpper</textarea>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="style8">
-                                            <b>Year Excavated:</b>
-                                        </td>
-                                        <td class="style7">
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.YearExcav</span>
-                                        </td>
-                                        <td class="style9">
-                                            <b>BYU Sample:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">@Model.ByuSample</span>
-                                        </td>
-                                        <td colspan="3">
-                                            <table colspan="3">
-
-                                                <tr colspan="3">
-                                                    <td class="style9" colspan="3"><strong>Burial West To Head:</strong></td>
-                                                    <td colspan="3">@Model.BurialWestToHead</td>
-                                                </tr>
-                                                <tr colspan="3">
-                                                    <td class="style9" colspan="3"><strong>Burial West To Feet:</strong></td>
-                                                    <td colspan="3">@Model.BurialWestToFeet</td>
-                                                </tr>
-                                                <tr colspan="3">
-                                                    <td class="style9" colspan="3"><strong>Burial South To Head:</strong></td>
-                                                    <td colspan="3">@Model.BurialSouthToHead</td>
-                                                </tr>
-                                                <tr colspan="3">
-                                                    <td class="style9" colspan="3"><strong>Burial South To Feet:</strong></td>
-                                                    <td colspan="3">@Model.BurialSouthToFeet</td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><br /></td>
-                                    </tr>
-                                    <tr>
-                                        <th colspan="3">
-                                            <h5>Physical Attributes:</h5>
-                                        </th>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="style8">
-                                            <b>Rack and Shelf:</b>
-                                        </td>
-                                        <td class="style7">
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.RackAndShelf</span>
-                                        </td>
-                                        <td>
-                                            <b>Skull Date:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.YearOnSkull + @Model.MonthOnSkull + @Model.DateOnSkull</span>
-                                        </td>
-                                        <td class="style9">
-                                            <b>Skull at Magazine:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">@Model.SkullAtMagazine</span>
-                                        </td>
-                                        <td>
-                                            <b>Postcrania At Magazine:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.PostcraniaAtMagazine</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="style8">
-                                            <b>Cribria Orbitala:</b>
-                                        </td>
-                                        <td class="style7">
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.CribraOrbitala</span>
-                                        </td>
-                                        <td class="style9">
-                                            <b>Linear Hypoplasia Enamel:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_SampledLabel">@Model.LinearHypoplasiaEnamel</span>
-                                        </td>
-                                        <td>
-                                            <b>Temporal Mandibular Joine Osteoarthritis (TMJOA):</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.TemporalMandibularJointOsteoarthritisTmjOa</span>
-                                        </td>
-
-                                        <td>
-                                            <b>Postcrania Trauma:</b>
-                                        </td>
-                                        <td>
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_Scientific_TestingLabel">@Model.PostcraniaTrauma</span>
+                                        <td class="style7" valign="top">
+                                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column82</textarea>
                                         </td>
 
                                     </tr>
-                                    <tr>
-                                        <td><br /></td>
-                                    </tr>
-                                    <tr>
-                                        <th colspan="3">
-                                            <h5>Osteology/Archeological Notes:</h5>
-                                        </th>
-                                    </tr>
-
-                                <td><br /></td>
-                                <tr>
-                                    <td class="style8" valign="top">
-                                        <b>Notes 1</b>:
-                                    </td>
-                                    <td class="style7" valign="top">
-                                        <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column73</textarea>
-                                    </td>
-                                    <td class="style8" valign="top">
-                                        <b>Notes 2</b>:
-                                    </td>
-                                    <td class="style7" valign="top">
-                                        <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column74</textarea>
-                                    </td>
-                                    <td class="style8" valign="top">
-                                        <b>Notes 3</b>:
-                                    </td>
-                                    <td class="style7" valign="top">
-                                        <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column75</textarea>
-                                    </td>
-                                    <td class="style8" valign="top">
-                                        <b>Notes 4</b>:
-                                    </td>
-                                    <td class="style7" valign="top">
-                                        <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column76</textarea>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="style8" valign="top">
-                                        <b>Notes 5</b>:
-                                    </td>
-                                    <td class="style7" valign="top">
-                                        <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column77</textarea>
-                                    </td>
-                                    <td class="style8" valign="top">
-                                        <b>Notes 6</b>:
-                                    </td>
-                                    <td class="style7" valign="top">
-                                        <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column78</textarea>
-                                    </td>
-                                    <td class="style8" valign="top">
-                                        <b>Notes 7</b>:
-                                    </td>
-                                    <td class="style7" valign="top">
-                                        <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column79</textarea>
-                                    </td>
-                                    <td class="style8" valign="top">
-                                        <b>Notes 8</b>:
-                                    </td>
-                                    <td class="style7" valign="top">
-                                        <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column80</textarea>
-                                    </td>
-
-                                </tr>
-                                <tr>
-                                    <td class="style8" valign="top">
-                                        <b>Notes 9</b>:
-                                    </td>
-                                    <td class="style7" valign="top">
-                                        <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column81</textarea>
-                                    <td class="style8" valign="top">
-                                        <b>Notes 10</b>:
-                                    </td>
-                                    <td class="style7" valign="top">
-                                        <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column82</textarea>
-                                    </td>
-
-                                </tr>
 
 
-</tbody>
+                </tbody>
+            </table>
+        </div>
+        </td>
+        </tr>
+        </tbody>
         </table>
-    </div>
-    </td>
-    </tr>
-    </tbody>
-    </table>
-    <br>
-    <br>
-    <br>
-    </div>
-    <input hidden asp-for="BurialId" value="@Model.BurialId" />
-</form>
+        <br>
+        <br>
+        <br>
+        </div>
+        <input hidden asp-for="BurialId" value="@Model.BurialId" />
+    </form>

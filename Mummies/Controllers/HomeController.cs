@@ -69,6 +69,7 @@ namespace Mummies.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult DatabaseSearch(SearchInfo search, int PageNum = 1)
         {
             IQueryable<FagElGamousDatabaseByLocation> burials = _context.FagElGamousDatabaseByLocation;
@@ -96,24 +97,29 @@ namespace Mummies.Controllers
             return View(model);
         }
 
-        public IActionResult MummyAnalytics()
-        {
-            //Not sure how this will work yet, but it is here.
-            return View();
-        }
-        public IActionResult FullMummyData()
-        {
-            //Home page controller
-            return View();
-        }
+        //public IActionResult MummyAnalytics()
+        //{
+        //    //Not sure how this will work yet, but it is here.
+        //    return View();
+        //}
+        //public IActionResult FullMummyData()
+        //{
+        //    //Home page controller
+        //    return View();
+        //}
 
         [HttpPost]
-        public IActionResult FullMummyData(String BurialId)
+        public IActionResult FullMummyData(string BurialId)
         {
             IEnumerable<FagElGamousDatabaseByLocation> fagElGamousDatabaseByLocations;
             fagElGamousDatabaseByLocations = _context.FagElGamousDatabaseByLocation.Where(x => x.BurialId == BurialId);
 
             return View("FullMummyData", fagElGamousDatabaseByLocations.First());
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

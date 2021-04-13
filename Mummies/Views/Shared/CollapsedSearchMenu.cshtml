@@ -8,6 +8,7 @@
 <div id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <form class="p-3" asp-controller="Home" asp-action="DatabaseSearch" method="post">
+        @Html.AntiForgeryToken()
         <h6 class="byu-text">Location</h6>
         <label>North Minimum Coordinates</label>
         <select asp-for="NorthMin" id="northmin" name="northmin" value="@Model.NorthMin">
@@ -228,7 +229,7 @@
                 </select>
             </div>
         </div>
-        <br class="small"/>
+        <br class="small" />
         <div class="col-12">
             <label asp-for="BoneMin">Mininmum</label>
             <input type="number" asp-for="BoneMin" />
