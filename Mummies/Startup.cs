@@ -43,7 +43,7 @@ namespace Mummies
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
             //if (env.IsDevelopment())
             //{
@@ -72,7 +72,9 @@ namespace Mummies
                 endpoints.MapRazorPages();
             });
 
-            SeedData.EnsurePopulated(app);
+            
+            SeedData seeding = new SeedData(userManager, signInManager);
+            seeding.EnsurePopulated(app);
         }
 
     }

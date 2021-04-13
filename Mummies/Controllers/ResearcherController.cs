@@ -8,7 +8,7 @@ using Mummies.Models.MummyDb;
 
 namespace Mummies.Controllers
 {
-    //[Authorize (Roles = "Researcher, Admin")]
+    [Authorize (Roles = "Researcher, Admin")]
     public class ResearcherController : Controller
     {
         //add the _context (allows you to edit/delete)
@@ -63,27 +63,7 @@ namespace Mummies.Controllers
         }
 
         [HttpPost]
-<<<<<<< HEAD
         public IActionResult UpdateMummy()
-=======
-        public IActionResult UpdateMummyData(String BurialId)
-        {
-            IEnumerable<FagElGamousDatabaseByLocation> fagElGamousDatabaseByLocations;
-            fagElGamousDatabaseByLocations = _context.FagElGamousDatabaseByLocation.Where(x => x.BurialId == BurialId);
-
-            return View("EditFullMummyData", fagElGamousDatabaseByLocations.First());
-        }
-        public IActionResult DeleteMummy(string mummyid)
-        {
-            FagElGamousDatabaseByLocation mummy = _context.FagElGamousDatabaseByLocation.Where(b => b.BurialId == mummyid).FirstOrDefault();
-            _context.FagElGamousDatabaseByLocation.Remove(mummy);
-            _context.SaveChanges();
-            return RedirectToAction("DatabaseSearch", "Home");
-        }
-
-        [HttpPost]
-        public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)
->>>>>>> 534b3657a33db0498df89b2c8ea098f6f4867c48
         {
             //Submits update
             //Only accessible by researchers

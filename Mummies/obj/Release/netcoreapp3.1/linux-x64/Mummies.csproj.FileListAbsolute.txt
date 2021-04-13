@@ -204,6 +204,7 @@ C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Release\netcoreapp3.1\li
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Release\netcoreapp3.1\linux-x64\Razor\Views\Researcher\MummyConfirmation.cshtml.g.cs
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Release\netcoreapp3.1\linux-x64\Razor\Views\Researcher\UpdateMummy.cshtml.g.cs
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Release\netcoreapp3.1\linux-x64\Razor\Views\Shared\CollapsedSearchMenu.cshtml.g.cs
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Release\netcoreapp3.1\linux-x64\Razor\Views\Shared\EditFullMummyData.cshtml.g.cs
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Release\netcoreapp3.1\linux-x64\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Release\netcoreapp3.1\linux-x64\Razor\Views\Shared\FullMummyData.cshtml.g.cs
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Release\netcoreapp3.1\linux-x64\Razor\Views\Shared\_Layout.cshtml.g.cs

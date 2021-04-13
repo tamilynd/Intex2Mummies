@@ -1,0 +1,58 @@
+﻿@model RoleUserListViewModel;
+
+@{ 
+    ViewBag.Title = "Site Roles";
+}
+<br />
+<h1>Manage User Roles &emsp;<a asp-area="Identity" asp-page="/Account/Register" class="btn" style="background-color: #002e5d; color:white;">Create New User</a></h1>
+<br />
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col-5 align-content-center text-center">
+        <div class="card mb-3 w-75 align-items-center">
+            <div class="card-header w-100">
+                <p><small>Role ID: @ViewBag.Researcher.Id</small></p>
+            </div>
+            <div class="card-title">
+                <br />
+                <h3>Researchers</h3>
+            </div>
+            <div class="card-body">
+                <h4>Users</h4>
+                @foreach (var user in Model.ResearchUsers)
+                {
+                    <hr />
+                    <h6> @user.Value </h6>
+                    <p><small>User ID: @user.Key</small></p>
+                }
+            </div>
+            <div class="card-footer w-100">
+                <a asp-controller="Admin" asp-action="EditUsersInRole" asp-route-id="@ViewBag.researcher.Id" class="btn btn-primary" style="background-color: #002e5d; color:white;">Edit Users</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-5 align-content-center text-center">
+        <div class="card mb-3 w-75 align-items-center">
+            <div class="card-header w-100">
+                <p><small>Role ID: @ViewBag.Researcher.Id</small></p>
+            </div>
+            <div class="card-title">
+                <br />
+                <h3>Admin</h3>
+            </div>
+            <div class="card-body">
+                <h4>Users</h4>
+                @foreach (var user in Model.AdminUsers)
+                {
+                    <hr />
+                    <h6> @user.Value </h6>
+                    <p><small>User ID: @user.Key</small></p>
+                }
+            </div>
+            <div class="card-footer w-100">
+                <a asp-controller="Admin" asp-action="EditUsersInRole" asp-route-id="@ViewBag.admin.Id" class="btn" style="background-color: #002e5d; color:white;">Edit Users</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
