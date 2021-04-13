@@ -97,16 +97,12 @@ namespace Mummies.Controllers
             return View(model);
         }
 
-        //public IActionResult MummyAnalytics()
-        //{
-        //    //Not sure how this will work yet, but it is here.
-        //    return View();
-        //}
-        //public IActionResult FullMummyData()
-        //{
-        //    //Home page controller
-        //    return View();
-        //}
+        public IActionResult MummyAnalytics()
+        {
+            //Not sure how this will work yet, but it is here.
+            return View();
+        }
+        
 
         [HttpPost]
         public IActionResult FullMummyData(string BurialId)

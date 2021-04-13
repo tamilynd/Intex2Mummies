@@ -185,7 +185,6 @@ C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Admin.cshtml.g.cs
-C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateRole.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUsersInRole.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListRolesAndUsers.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\DatabaseSearch.cshtml.g.cs
@@ -193,12 +192,6 @@ C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\MummyAnalytics.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\AddMummy.cshtml.g.cs
-C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\BiologicalSamples.cshtml.g.cs
-C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\BurialId.cshtml.g.cs
-C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\C14Data.cshtml.g.cs
-C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\FagElGamousDatabaseByLocation.cshtml.g.cs
-C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\MummyConfirmation.cshtml.g.cs
-C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\UpdateMummy.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\CollapsedSearchMenu.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\FullMummyData.cshtml.g.cs
@@ -215,7 +208,6 @@ C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.pdb
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.genruntimeconfig.cache
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.csprojAssemblyReference.cache
-C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\EditFullMummyData.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
@@ -486,3 +478,22 @@ C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razo
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\MummyConfirmation.cshtml.g.cs
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\UpdateMummy.cshtml.g.cs
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\AngleSharp.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\AngleSharp.Css.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\AntiXssLibrary.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\HtmlSanitizationLibrary.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\HtmlSanitizer.dll
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\HiddenAdmin\EditUsersInRole.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Researcher\EditFullMummyData.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\Admin.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\BiologicalSamples.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\BurialId.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\C14Data.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\CreateRole.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\FagElGamousDatabaseByLocation.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\ListRolesAndUsers.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\MummyAnalytics.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\MummyConfirmation.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Vault\UpdateMummy.cshtml.g.cs

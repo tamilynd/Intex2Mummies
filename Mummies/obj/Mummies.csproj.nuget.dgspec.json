@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj": {}
+    "C:\\Users\\IT User\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj": {
+    "C:\\Users\\IT User\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj",
+        "projectUniqueName": "C:\\Users\\IT User\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj",
         "projectName": "Mummies",
-        "projectPath": "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj",
-        "packagesPath": "C:\\Users\\Tam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tam\\Documents\\GitHub\\Intex2Mummies\\Mummies\\obj\\",
+        "projectPath": "C:\\Users\\IT User\\Documents\\GitHub\\Intex2Mummies\\Mummies\\Mummies.csproj",
+        "packagesPath": "C:\\Users\\IT User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IT User\\Documents\\GitHub\\Intex2Mummies\\Mummies\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IT User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,6 +91,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.13, 3.1.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

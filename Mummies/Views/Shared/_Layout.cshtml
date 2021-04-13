@@ -22,6 +22,7 @@
                     <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     <a asp-area="" asp-controller="Home" asp-action="DatabaseSearch">Database</a>
                     <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                    <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics">Mummy Analytics</a>
                     @if (User.IsInRole("Researcher") || User.IsInRole("Admin"))
                     {
                         <a asp-area="" asp-controller="Researcher" asp-action="AddMummy">Add Mummy</a>
@@ -37,6 +38,7 @@
                     <a asp-area="" asp-controller="Home" asp-action="Index" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">Home</a>
                     <a asp-area="" asp-controller="Home" asp-action="DatabaseSearch" class="@(ViewContext.RouteData.Values["Action"].ToString() == "DatabaseSearch" ? "active" : "")">Database</a>
                     <a asp-area="" asp-controller="Home" asp-action="Contact" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? "active" : "")">Contact</a>
+                    <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics" class="@(ViewContext.RouteData.Values["Action"].ToString() == "MummyAnalytics" ? "active" : "")">Mummy Analytics</a>
                     @if (User.IsInRole("Researcher") || User.IsInRole("Admin"))
                     {
                         <a asp-area="" asp-controller="Researcher" asp-action="AddMummy" class="@(ViewContext.RouteData.Values["Action"].ToString() == "AddMummy" ? "active" : "")">Add Mummy</a>
