@@ -55,20 +55,23 @@ namespace Mummies.Controllers
 
         //    return View("Index");
         //}
-
-        public IActionResult UpdateMummyData()
-        {
-            //Home page controller
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult UpdateMummyData(String BurialId)
+       
+        public IActionResult UpdateMummyData(string BurialId)
         {
             IEnumerable<FagElGamousDatabaseByLocation> fagElGamousDatabaseByLocations;
             fagElGamousDatabaseByLocations = _context.FagElGamousDatabaseByLocation.Where(x => x.BurialId == BurialId);
+            return View("EditFullMummyData", fagElGamousDatabaseByLocations.FirstOrDefault());
+        }
 
-            return View("EditFullMummyData", fagElGamousDatabaseByLocations.First());
+        [HttpPost]
+        public IActionResult MummyUpdate(FagElGamousDatabaseByLocation Mummy)
+        {
+           
+            _context.FagElGamousDatabaseByLocation.Update(Mummy);
+            _context.SaveChanges();
+
+
+            return RedirectToAction("DatabaseSearch", "Home");
         }
         public IActionResult DeleteMummy(string mummyid)
         {

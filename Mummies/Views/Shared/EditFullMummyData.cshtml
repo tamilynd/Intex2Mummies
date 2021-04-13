@@ -22,7 +22,7 @@
                                     <tr>
 
                                         <div class="style8">
-                                            <strong>Burial ID:</strong> <label asp-for="BurialId">
+                                            <strong>Burial ID:</strong> <label>
                                                 @Model.Burialnors @Model.BurialAreaNorthOrSouthLower/@Model.BurialAreaNorthOrSouthUpper @Model.Burialxeorw
                                                 @Model.BurialAreaEastOrWestLower/@Model.BurialAreaEastOrWestUpper @Model.Square @Model.BurialNumber
                                             </label>
@@ -62,17 +62,17 @@
 
                                         <div>
                                             <label asp-for="BurialAreaNorthOrSouthLower">Lower Bound: </label>
-                                            <input class="form-control" asp-for="BurialAreaNorthOrSouthLower" type="number" max="200" />
+                                            <input class="form-control" asp-for="BurialAreaNorthOrSouthLower" type="number" max="500" />
                                         </div>
 
 
 
                                         <div>
                                             <label asp-for="BurialAreaNorthOrSouthUpper">Upper Bound: </label>
-                                            <input class="form-control" asp-for="BurialAreaNorthOrSouthUpper" type="number" max="200" />
+                                            <input class="form-control" asp-for="BurialAreaNorthOrSouthUpper" type="number" max="500" />
                                         </div>
 
-                                        <label asp-for="Burialnors">Burial East or West (E/W): </label>
+                                        <label asp-for="Burialxeorw">Burial East or West (E/W): </label>
 
                                         @if (Model.Burialxeorw == "E")
                                         {
@@ -82,7 +82,7 @@
                                                 <option value=null>Unknown</option>
                                             </select>
                                         }
-                                        else if (Model.Burialnors == "W")
+                                        else if (Model.Burialxeorw == "W")
                                         {
                                             <select class="form-control" asp-for="Burialxeorw">
                                                 <option value="E">East</option>
@@ -104,10 +104,10 @@
                                         <div>
 
                                             <label asp-for="BurialAreaEastOrWestLower">Lower Bound: </label>
-                                            <input class="form-control" asp-for="BurialAreaEastOrWestLower" type="number" max="200" />
+                                            <input class="form-control" asp-for="BurialAreaEastOrWestLower" type="number" max="500" />
 
-                                            <label asp-for="BurialAreaEastOrWestLower">Upper Bound:</label>
-                                            <input class="form-control" asp-for="BurialAreaEastOrWestLower" max="200" />
+                                            <label asp-for="BurialAreaEastOrWestUpper">Upper Bound:</label>
+                                            <input class="form-control" asp-for="BurialAreaEastOrWestUpper" max="500" />
 
                                         </div>
 
@@ -246,7 +246,7 @@
                                         </div>
                                         <div>
                                             <label asp-for="BurialNumber">Burial Number: </label>
-                                            <input class="form-control" asp-for="BurialNumber" type="number" max="60" />
+                                            <input class="form-control" asp-for="BurialNumber" type="number" max="100 />
                                         </div>
                                     <tr>
                                         <td><br /></td>
@@ -432,7 +432,7 @@
                         <b>Rack and Shelf:</b>
                     </td>
                     <td class="style7">
-                        <input value="@Model.RackAndShelf" maxlength="10" />
+                        <input value="@Model.RackAndShelf" maxlength="15" />
                     </td>
                     <td class="style9">
                         <b>Tomb:</b>
