@@ -28,7 +28,7 @@
                     //@if (User.IsInRole("Admin") { 
                         <a asp-area="" asp-controller="Admin" asp-action="Admin">Admin</a>
                     //}
-                    <a asp-area="" asp-controller="Home" asp-action="FullMummyData">FullMummyData</a>
+                    
                 }
                 else
                 {
@@ -37,7 +37,7 @@
                     <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics" class="@(ViewContext.RouteData.Values["Action"].ToString() == "MummyAnalytics" ? "active" : "")">Analytics</a>
                     <a asp-area="" asp-controller="Researcher" asp-action="AddMummy" class="@(ViewContext.RouteData.Values["Action"].ToString() == "AddMummy" ? "active" : "")">Add Mummy</a>
                     <a asp-area="" asp-controller="Admin" asp-action="Admin" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Admin" ? "active" : "")">Admin</a>
-                    <a asp-area="" asp-controller="Home" asp-action="FullMummyData" class="@(ViewContext.RouteData.Values["Action"].ToString() == "FullMummyData" ? "active" : "")">Full Mummy Data</a>
+                    
                 }
             </byu-menu>
         </byu-header>

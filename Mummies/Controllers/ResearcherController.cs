@@ -56,24 +56,19 @@ namespace Mummies.Controllers
         //    return View("Index");
         //}
 
-        [HttpGet]
-        public IActionResult UpdateMummy(string mummyid)
+        public IActionResult UpdateMummyData()
         {
-            //Controller that returns the mummy info for the mummy id that was sent through the view
-            //Only accessible by researchers
-
-
-
-
-            return View(_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid));
+            //Home page controller
+            return View();
         }
 
-        //_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid
-
         [HttpPost]
-        public IActionResult UpdateMummy()
+        public IActionResult UpdateMummyData(String BurialId)
         {
-            return View();
+            IEnumerable<FagElGamousDatabaseByLocation> fagElGamousDatabaseByLocations;
+            fagElGamousDatabaseByLocations = _context.FagElGamousDatabaseByLocation.Where(x => x.BurialId == BurialId);
+
+            return View("EditFullMummyData", fagElGamousDatabaseByLocations.First());
         }
         public IActionResult DeleteMummy(string mummyid)
         {
@@ -88,6 +83,7 @@ namespace Mummies.Controllers
         {
             //Submits update
             //Only accessible by researchers
+
             return View(/*collection of mummies*/);
         }
 
