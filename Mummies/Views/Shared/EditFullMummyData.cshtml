@@ -107,7 +107,7 @@
                                             <input class="form-control" asp-for="BurialAreaEastOrWestLower" type="number" max="500" />
 
                                             <label asp-for="BurialAreaEastOrWestUpper">Upper Bound:</label>
-                                            <input class="form-control" asp-for="BurialAreaEastOrWestUpper" max="500" />
+                                            <input class="form-control" asp-for="BurialAreaEastOrWestUpper" type="number" max="500" />
 
                                         </div>
 
@@ -288,11 +288,11 @@
                                 <td>
                                     @if (Model.BurialDepth == 0 || Model.BurialDepth is null)
                                     {
-                                        <input value="0" max=20 />
+                                        <input value="0" max=20 type="number"/>
                                     }
                                     else
                                     {
-                                        <input value="@Model.BurialDepth" max="20" />
+                                        <input value="@Model.BurialDepth" max="20" type="number" />
                                     }
                                 </td>
                                 <td class="style9">
@@ -346,7 +346,7 @@
                     <td>
                         @if (Model.Goods != null)
                         {
-                            <input value="@Model.Goods" />
+                            <input value="@Model.Goods" maxlength="300" />
                         }
                         else
                         {
