@@ -8,7 +8,7 @@ using Mummies.Models.MummyDb;
 
 namespace Mummies.Controllers
 {
-    [Authorize (Roles = "Researcher, Admin")]
+    //[Authorize (Roles = "Researcher, Admin")]
     public class ResearcherController : Controller
     {
         //add the _context (allows you to edit/delete)
@@ -55,15 +55,34 @@ namespace Mummies.Controllers
 
         //    return View("Index");
         //}
-
-        public IActionResult UpdateMummyData()
+       
+        public IActionResult UpdateMummyData(string BurialId)
         {
-            //Home page controller
-            return View();
+            IEnumerable<FagElGamousDatabaseByLocation> fagElGamousDatabaseByLocations;
+            fagElGamousDatabaseByLocations = _context.FagElGamousDatabaseByLocation.Where(x => x.BurialId == BurialId);
+            return View("EditFullMummyData", fagElGamousDatabaseByLocations.FirstOrDefault());
         }
 
         [HttpPost]
-        public IActionResult UpdateMummy()
+        public IActionResult MummyUpdate(FagElGamousDatabaseByLocation Mummy)
+        {
+           
+            _context.FagElGamousDatabaseByLocation.Update(Mummy);
+            _context.SaveChanges();
+
+
+            return RedirectToAction("DatabaseSearch", "Home");
+        }
+        public IActionResult DeleteMummy(string mummyid)
+        {
+            FagElGamousDatabaseByLocation mummy = _context.FagElGamousDatabaseByLocation.Where(b => b.BurialId == mummyid).FirstOrDefault();
+            _context.FagElGamousDatabaseByLocation.Remove(mummy);
+            _context.SaveChanges();
+            return RedirectToAction("DatabaseSearch", "Home");
+        }
+
+        [HttpPost]
+        public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)
         {
             //Submits update
             //Only accessible by researchers
