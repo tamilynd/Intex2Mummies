@@ -32,14 +32,14 @@
 
                     <div>
                         <label asp-for="BurialAreaNorthOrSouthLower">Lower Bound: </label>
-                        <input class="form-control" asp-for="BurialAreaNorthOrSouthLower" />
+                        <input class="form-control" asp-for="BurialAreaNorthOrSouthLower" type="number" />
                     </div>
 
 
 
                     <div>
                         <label asp-for="BurialAreaNorthOrSouthUpper">Upper Bound: </label>
-                        <input class="form-control" asp-for="BurialAreaNorthOrSouthUpper" />
+                        <input class="form-control" asp-for="BurialAreaNorthOrSouthUpper" type="number" />
                     </div>
 
 
@@ -55,15 +55,20 @@
 
 
                     <div>
+<<<<<<< HEAD
+                        <label asp-for="BurialAreaEastOrWestLower">Lower Bound: </label>
+                        <input class="form-control" asp-for="BurialAreaEastOrWestLower" type="number" />
+=======
                         <label asp-for="BurialAreaEastOrWestLower">Lower Bound: <script></script></label>
                         <input class="form-control" asp-for="BurialAreaEastOrWestLower" />
+>>>>>>> beb59a6c933f81bdf7c949fbd4e628624b9c2bf0
                     </div>
 
 
 
                     <div>
                         <label asp-for="BurialAreaEastOrWestUpper">Upper Bound: </label>
-                        <input class="form-control" asp-for="BurialAreaEastOrWestUpper" />
+                        <input class="form-control" asp-for="BurialAreaEastOrWestUpper" type="number" />
                     </div>
 
 
@@ -84,7 +89,7 @@
 
                     <div>
                         <label asp-for="BurialNumber">Burial Number: </label>
-                        <input class="form-control" asp-for="BurialNumber" />
+                        <input class="form-control" type="number" asp-for="BurialNumber" type="number" />
                     </div>
 
                 </div>
@@ -98,42 +103,42 @@
 
                     <div>
                         <label asp-for="BurialSouthToHead">South to Head: </label>
-                        <input class="form-control" asp-for="BurialSouthToHead" />
+                        <input class="form-control" asp-for="BurialSouthToHead" type="number"/>
                     </div>
 
 
 
                     <div>
                         <label asp-for="BurialSouthToFeet">South to Feet: </label>
-                        <input class="form-control" asp-for="BurialSouthToFeet" />
+                        <input class="form-control" asp-for="BurialSouthToFeet" type="number"/>
                     </div>
 
 
 
                     <div>
                         <label asp-for="BurialWestToHead">West to Head: </label>
-                        <input class="form-control" asp-for="BurialWestToHead" />
+                        <input class="form-control" asp-for="BurialWestToHead" type="number" />
                     </div>
 
 
 
                     <div>
                         <label asp-for="BurialWestToFeet">West to Feet: </label>
-                        <input class="form-control" asp-for="BurialWestToFeet" />
+                        <input class="form-control" asp-for="BurialWestToFeet" type="number"/>
                     </div>
 
 
 
                     <div>
                         <label asp-for="Length">Length: </label>
-                        <input class="form-control" asp-for="Length" />
+                        <input class="form-control" asp-for="Length" type="number"/>
                     </div>
 
 
 
                     <div>
                         <label asp-for="BurialDepth">Depth: </label>
-                        <input class="form-control" asp-for="BurialDepth" />
+                        <input class="form-control" asp-for="BurialDepth" type="number"/>
                     </div>
 
 
@@ -161,12 +166,11 @@
                     </div>
 
 
-
                     <div asp-validation-summary="All"></div>
                     <button type="submit">Submit</button>
 
                 </div>
-                <br 
+                <br />
             </div>
         </form>
 

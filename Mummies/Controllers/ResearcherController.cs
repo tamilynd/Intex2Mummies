@@ -48,23 +48,32 @@ namespace Mummies.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpPost]
-        public IActionResult AddConfirmation(string x /*mummy from confirmation*/)
-        {
+        //[HttpPost]
+        //public IActionResult AddConfirmation(string x /*mummy from confirmation*/)
+        //{
 
 
-            return View("Index");
-        }
+        //    return View("Index");
+        //}
 
-        [HttpPost]
-        public IActionResult UpdateMummy(int mummyid)
+        [HttpGet]
+        public IActionResult UpdateMummy(string mummyid)
         {
             //Controller that returns the mummy info for the mummy id that was sent through the view
             //Only accessible by researchers
-            return View(/*collection of mummies*/);
+
+
+
+
+            return View(_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid));
         }
 
+        //_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid
+
         [HttpPost]
+<<<<<<< HEAD
+        public IActionResult UpdateMummy()
+=======
         public IActionResult DeleteMummy(string mummyid)
         {
             FagElGamousDatabaseByLocation mummy = _context.FagElGamousDatabaseByLocation.Where(b => b.BurialId == mummyid).FirstOrDefault();
@@ -75,11 +84,20 @@ namespace Mummies.Controllers
 
         [HttpPost]
         public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)
+>>>>>>> beb59a6c933f81bdf7c949fbd4e628624b9c2bf0
         {
-            //Returns the update confirmation for the updated mummy info
-            //We will either need to make separate views, OR we need to pass in 
-            //info that shows that this is an update rather than an add. 
-            return View("MummyConfirmation");
+            //Submits update
+            //Only accessible by researchers
+            return View(/*collection of mummies*/);
         }
+
+        //[HttpPost]
+        //public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)
+        //{
+        //    //Returns the update confirmation for the updated mummy info
+        //    //We will either need to make separate views, OR we need to pass in 
+        //    //info that shows that this is an update rather than an add. 
+        //    return View("MummyConfirmation");
+        //}
     }
 }
