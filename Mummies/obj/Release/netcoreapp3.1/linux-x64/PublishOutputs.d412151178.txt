@@ -1,7 +1,11 @@
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\Mummies
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\Arrioch-Halloween-Mummy.ico
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\css\site.css
-C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\favicon.ico
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\images\Figure 1 - Depth of Burials - Transect.jpg
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\images\Figure 2 - Juvenile and Adult Burials - All 25 areas.jpg
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\images\Figure 3 - Cluster Burials - All 25 Areas.jpg
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\images\Gobi_Desert_dunes.jpg
+C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\images\Skull Location and Trauma.JPG
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\js\site.js
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Release\netcoreapp3.1\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map

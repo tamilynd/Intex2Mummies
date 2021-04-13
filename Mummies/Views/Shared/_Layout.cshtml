@@ -6,6 +6,7 @@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" type="image/x-icon" href="~/Arrioch-Halloween-Mummy.ico" />
     <!--BYU LOOKING STYLES-->
     <script async src="https://cdn.byu.edu/byu-theme-components/2.x.x/byu-theme-components.min.js"></script>
     <link rel="stylesheet" href="https://cdn.byu.edu/byu-theme-components/2.x.x/byu-theme-components.min.css" media="all">
@@ -21,8 +22,9 @@
                 {
                     <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     <a asp-area="" asp-controller="Home" asp-action="DatabaseSearch">Database</a>
+                    <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics">Analytics</a>
                     <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
-                    <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics">Mummy Analytics</a>
+
                     @if (User.IsInRole("Researcher") || User.IsInRole("Admin"))
                     {
                         <a asp-area="" asp-controller="Researcher" asp-action="AddMummy">Add Mummy</a>
@@ -37,8 +39,9 @@
                 {
                     <a asp-area="" asp-controller="Home" asp-action="Index" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">Home</a>
                     <a asp-area="" asp-controller="Home" asp-action="DatabaseSearch" class="@(ViewContext.RouteData.Values["Action"].ToString() == "DatabaseSearch" ? "active" : "")">Database</a>
+                    <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics" class="@(ViewContext.RouteData.Values["Action"].ToString() == "MummyAnalytics" ? "active" : "")">Analytics</a>
+
                     <a asp-area="" asp-controller="Home" asp-action="Contact" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? "active" : "")">Contact</a>
-                    <a asp-area="" asp-controller="Home" asp-action="MummyAnalytics" class="@(ViewContext.RouteData.Values["Action"].ToString() == "MummyAnalytics" ? "active" : "")">Mummy Analytics</a>
                     @if (User.IsInRole("Researcher") || User.IsInRole("Admin"))
                     {
                         <a asp-area="" asp-controller="Researcher" asp-action="AddMummy" class="@(ViewContext.RouteData.Values["Action"].ToString() == "AddMummy" ? "active" : "")">Add Mummy</a>
