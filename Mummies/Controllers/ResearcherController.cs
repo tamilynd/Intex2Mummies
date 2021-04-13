@@ -71,20 +71,7 @@ namespace Mummies.Controllers
         //_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid
 
         [HttpPost]
-<<<<<<< HEAD
         public IActionResult UpdateMummy()
-=======
-        public IActionResult DeleteMummy(string mummyid)
-        {
-            FagElGamousDatabaseByLocation mummy = _context.FagElGamousDatabaseByLocation.Where(b => b.BurialId == mummyid).FirstOrDefault();
-            _context.FagElGamousDatabaseByLocation.Remove(mummy);
-            _context.SaveChanges();
-            return RedirectToAction("DatabaseSearch", "Home");
-        }
-
-        [HttpPost]
-        public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)
->>>>>>> beb59a6c933f81bdf7c949fbd4e628624b9c2bf0
         {
             //Submits update
             //Only accessible by researchers
