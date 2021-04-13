@@ -12,6 +12,17 @@
                 <tr>
                     <td colspan="2">
                         <div class="content-holder-main">
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <div>
+                                    <form asp-action="UpdateMummyData" asp-controller="Researcher" method="post">
+                                        <input name="BurialId" id="BurialId" value="@Model.BurialId" hidden />
+                                        <input type="submit" class="btn byu-color text-white small" asp-action="UpdateMummyData" asp-controller="Researcher" value="Edit" />
+                                    </form>
+                                </div>
+                            }
+
+
                             <table class="style1">
                                 <tbody>
                                     <tr>
@@ -92,7 +103,7 @@
                                                 {
                                                     <a>Very Little/No Wrapping</a>
                                                 }
-                                                                                    </span>
+                                            </span>
                                         </td>
 
                                     </tr>
@@ -110,7 +121,7 @@
                                                 <a>No Artifacts</a>
                                             }
                                         </td>
-                                        
+
                                         <td>
                                             <b>Hair Color:</b>
                                         </td>
@@ -261,10 +272,10 @@
 
                                     <tr>
                                         <td class="style8">
-                                            <b>Body Analysis:</b>
+                                            <b>Rack and Shelf:</b>
                                         </td>
                                         <td class="style7">
-                                            <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.BodyAnalysis</span>
+                                            <span id="ctl00_ContentPlaceHolder1_FormView1_PhotographedLabel">@Model.RackAndShelf</span>
                                         </td>
                                         <td>
                                             <b>Skull Date:</b>
@@ -392,7 +403,7 @@
                                 </tr>
 
 
-            </tbody>
+</tbody>
         </table>
     </div>
     </td>

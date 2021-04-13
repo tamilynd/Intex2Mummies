@@ -132,7 +132,6 @@ C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.csprojAssemblyReference.cache
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.AssemblyInfoInputs.cache
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.AssemblyInfo.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.csproj.CoreCompileInputs.cache
@@ -186,6 +185,7 @@ C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Admin.cshtml.g.cs
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateRole.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUsersInRole.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListRolesAndUsers.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Home\DatabaseSearch.cshtml.g.cs
@@ -202,7 +202,6 @@ C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\CollapsedSearchMenu.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\FullMummyData.cshtml.g.cs
-C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\MummyPopup.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -215,6 +214,7 @@ C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.dll
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.pdb
 C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\Mummies.StaticWebAssets.xml
@@ -454,3 +454,7 @@ C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runt
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Tam\Documents\GitHub\Intex2Mummies\Mummies\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
+=======
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Mummies.csprojAssemblyReference.cache
+C:\Users\IT User\Documents\GitHub\Intex2Mummies\Mummies\obj\Debug\netcoreapp3.1\Razor\Views\Shared\EditFullMummyData.cshtml.g.cs
+>>>>>>> 534b3657a33db0498df89b2c8ea098f6f4867c48

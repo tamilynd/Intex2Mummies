@@ -107,35 +107,35 @@
 
                 <div>
                     <label asp-for="BurialSouthToFeet">South to Feet: </label>
-                    <input class="form-control" asp-for="BurialSouthToFeet" value="@Model.BurialSouthToFeet"/>
+                    <input class="form-control" asp-for="BurialSouthToFeet" value="@Model.BurialSouthToFeet" />
                 </div>
 
 
 
                 <div>
                     <label asp-for="BurialWestToHead">West to Head: </label>
-                    <input class="form-control" asp-for="BurialWestToHead" value="@Model.BurialWestToHead"/>
+                    <input class="form-control" asp-for="BurialWestToHead" value="@Model.BurialWestToHead" />
                 </div>
 
 
 
                 <div>
                     <label asp-for="BurialWestToFeet">West to Feet: </label>
-                    <input class="form-control" asp-for="BurialWestToFeet" value="@Model.BurialWestToFeet"/>
+                    <input class="form-control" asp-for="BurialWestToFeet" value="@Model.BurialWestToFeet" />
                 </div>
 
 
 
                 <div>
                     <label asp-for="Length">Length: </label>
-                    <input class="form-control" asp-for="Length" value="@Model.Length"/>
+                    <input class="form-control" asp-for="Length" value="@Model.Length" />
                 </div>
 
 
 
                 <div>
                     <label asp-for="BurialDepth">Depth: </label>
-                    <input class="form-control" asp-for="BurialDepth" value="@Model.BurialDepth"/>
+                    <input class="form-control" asp-for="BurialDepth" value="@Model.BurialDepth" />
                 </div>
 
 
@@ -161,8 +161,85 @@
                         <option value="U">Unknown</option>
                     </select>
                 </div>
+                <br />
+                <table>
+                    <tr>
+                        <th colspan="3">
+                            <h5>Osteology/Archeological Notes:</h5>
+                        </th>
+                    </tr>
 
+                    <td><br /></td>
+                    <tr>
+                        <td class="style8" valign="top">
+                            <b>Notes 1</b>:
+                        </td>
+                        <td class="style7" valign="top">
+                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column73</textarea>
+                        </td>
 
+                        <td class="style8" valign="top">
+                            <b>Notes 2</b>:
+                        </td>
+                        <td class="style7" valign="top">
+                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column74</textarea>
+                        </td>
+                        <td class="style8" valign="top">
+                            <b>Notes 3</b>:
+                        </td>
+                        <td class="style7" valign="top">
+                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column75</textarea>
+                        </td>
+                        <td class="style8" valign="top">
+                            <b>Notes 4</b>:
+                        </td>
+                        <td class="style7" valign="top">
+                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column76</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style8" valign="top">
+                            <b>Notes 5</b>:
+                        </td>
+                        <td class="style7" valign="top">
+                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column77</textarea>
+                        </td>
+                        <td class="style8" valign="top">
+                            <b>Notes 6</b>:
+                        </td>
+                        <td class="style7" valign="top">
+                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column78</textarea>
+                        </td>
+                        <td class="style8" valign="top">
+                            <b>Notes 7</b>:
+                        </td>
+                        <td class="style7" valign="top">
+                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column79</textarea>
+                        </td>
+                        <td class="style8" valign="top">
+                            <b>Notes 8</b>:
+                        </td>
+                        <td class="style7" valign="top">
+                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column80</textarea>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="style8" valign="top">
+                            <b>Notes 9</b>:
+                        </td>
+                        <td class="style7" valign="top">
+                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column81</textarea>
+                        <td class="style8" valign="top">
+                            <b>Notes 10</b>:
+                        </td>
+                        <td class="style7" valign="top">
+                            <textarea name="ctl00$ContentPlaceHolder1$FormView1$DescriptionLabel0" rows="2" cols="20" readonly="readonly" id="ctl00_ContentPlaceHolder1_FormView1_DescriptionLabel0" style="height:72px;">@Model.Column82</textarea>
+                        </td>
+
+                    </tr>
+                </table>
+                <input hidden asp-for="BurialId" value="@Model.BurialId" />
                 <div asp-validation-summary="All"></div>
                 <button type="submit">Submit</button>
 

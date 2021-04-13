@@ -56,25 +56,38 @@ namespace Mummies.Controllers
         //    return View("Index");
         //}
 
-        [HttpGet]
-        public IActionResult UpdateMummy(string mummyid)
+        public IActionResult UpdateMummyData()
         {
-            //Controller that returns the mummy info for the mummy id that was sent through the view
-            //Only accessible by researchers
-
-
-
-
-            return View(_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid));
+            //Home page controller
+            return View();
         }
 
-        //_context.FagElGamousDatabaseByLocation.First(x => x.BurialId == mummyid
+        [HttpPost]
+<<<<<<< HEAD
+        public IActionResult UpdateMummy()
+=======
+        public IActionResult UpdateMummyData(String BurialId)
+        {
+            IEnumerable<FagElGamousDatabaseByLocation> fagElGamousDatabaseByLocations;
+            fagElGamousDatabaseByLocations = _context.FagElGamousDatabaseByLocation.Where(x => x.BurialId == BurialId);
+
+            return View("EditFullMummyData", fagElGamousDatabaseByLocations.First());
+        }
+        public IActionResult DeleteMummy(string mummyid)
+        {
+            FagElGamousDatabaseByLocation mummy = _context.FagElGamousDatabaseByLocation.Where(b => b.BurialId == mummyid).FirstOrDefault();
+            _context.FagElGamousDatabaseByLocation.Remove(mummy);
+            _context.SaveChanges();
+            return RedirectToAction("DatabaseSearch", "Home");
+        }
 
         [HttpPost]
-        public IActionResult UpdateMummy()
+        public IActionResult UpdateConfirmation(int mummyid /*mummy passed through form*/)
+>>>>>>> 534b3657a33db0498df89b2c8ea098f6f4867c48
         {
             //Submits update
             //Only accessible by researchers
+
             return View(/*collection of mummies*/);
         }
 
